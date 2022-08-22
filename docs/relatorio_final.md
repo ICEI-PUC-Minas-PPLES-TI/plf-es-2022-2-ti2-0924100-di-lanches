@@ -1,18 +1,27 @@
 # TITULO DO PROJETO
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Eduardo Augusto Brito, email do aluno 1**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Eron Panes de Moraes, email do aluno 2**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Pablo Guilherme A.P Magela, email do aluno 3**
+
+**Guilherme Augustto Costa Barros, 1334415@sga.pucminas.br**
+
+**Henrique Pinto Santos, email do aluno 5**
+
+**José Miguel Quintão Magalhães, email do aluno 6**
 
 ---
 
 Professores:
 
-** Prof. NOme do Prof 1 **
-** Prof. NOme do Prof 2 **
+**Cristiano Geraldo Teixeira Silva**
+
+**Felipe Augusto Lima Reis**
+
+**Hugo Bastos de Paula**
 
 ---
 
