@@ -1,6 +1,6 @@
-# Nome do projeto
+# Di'Lanches
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O contexto do projeto do grupo Di’Lanches é a criação de um sistema de geração de pedidos com base em um menu de opções de alimentos com estoque e preço definidos.
 
 ## Integrantes
 
