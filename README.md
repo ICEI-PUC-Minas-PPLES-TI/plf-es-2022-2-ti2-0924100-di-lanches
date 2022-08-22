@@ -4,10 +4,12 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Eduardo Augusto Brito
+* Eron Panes de Moraes
+* Pablo Guilherme A.P Magela
+* Guilherme Augustto Costa Barros
+* Henrique Pinto Santos
+* José Miguel Quintão Magalhães
 
 ## Professor
 
