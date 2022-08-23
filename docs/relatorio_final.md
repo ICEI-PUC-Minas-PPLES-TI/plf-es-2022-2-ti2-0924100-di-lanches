@@ -9,7 +9,7 @@
 
 **Guilherme Augustto Costa Barros, 1334415@sga.pucminas.br**
 
-**Henrique Pinto Santos, email do aluno 5**
+**Henrique Pinto Santos, henrique.santos.1267265@sga.pucminas.br
 
 **José Miguel Quintão Magalhães, email do aluno 6**
 
@@ -43,16 +43,11 @@ A introdução deve apresentar de dois ou quatro parágrafos de contextualizaç�
 
     1.1 Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+O Di’Lanches é uma empresa que possui um software que permite os seus atendentes gerenciar e organizar os pedidos dos clientes, onde o(a) atendente gera códigos para os pedidos realizados, além disso o mesmo poderá selecionar o lanche, a forma de pagamento e se o cliente irá comer no local ou levar para a viagem.  
 
     1.2 Problema
-
-Em seguida o aluno deve caminhar a contextualização para descrever o **problema** que o artigo trata. 
-O **problema** pode ser algo vivido em uma empresa específica. Neste caso, o aluno deve rapidamente apresentar 
-o cenário de problema da empresa. A empresa só deve ser citada explicitamente se o aluno tiver autorização 
-para tal.
+    
+Imaginamos que uma hamburgueria possui muitos pedidos e os atendentes não possuem um sistema bem organizado, e por esse motivo os pedidos chegam à cozinha incorretos, e como consequência geram problemas no controle de estoque, atrasos nas entregas e pedidos sendo entregues incorretamente.
 
     1.3 Objetivo geral
 
