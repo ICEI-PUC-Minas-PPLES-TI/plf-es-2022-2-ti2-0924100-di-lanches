@@ -55,7 +55,7 @@ O Objetivo Geral desse Projeto será elaborar um sistema para pedidos de lanches
 
         1.3.1 Objetivos específicos
 
-O Projeto tem como Objetivos Específicos criar uma Interface para o Sistema, de modo que o atendente consiga realizar os processo dos pedidos mais facilmente, e criar um Banco de Dados preciso para que informe sobre os Status dos produtos(Disponível, Em Falta, etc...).
+O Projeto tem como Objetivo Específico criar uma Interface para o Sistema, de modo que o atendente consiga realizar os processo dos pedidos mais facilmente, e criar um Banco de Dados preciso para que informe sobre os Status dos produtos(Disponível, Em Falta, etc...).
 
     1.4 Justificativas
 
