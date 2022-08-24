@@ -3,7 +3,7 @@
 
 **Eduardo Augusto Brito, email do aluno 1**
 
-**Eron Panes de Moraes, email do aluno 2**
+**Eron Panes de Moraes, epmoraes@sga.pucminas.br**
 
 **Pablo Guilherme A.P Magela, email do aluno 3**
 
