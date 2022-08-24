@@ -11,9 +11,11 @@ O contexto do projeto do grupo Di’Lanches é a criação de um sistema de gera
 * Henrique Pinto Santos
 * José Miguel Quintão Magalhães
 
-## Professor
+## Professores
 
-* Nome completo do professor
+* Cristiano Geraldo Teixeira Silva
+* Felipe Augusto Lima Reis
+* Hugo Bastos de Paula
 
 ## Instruções de utilização
 
