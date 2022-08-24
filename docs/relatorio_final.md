@@ -1,4 +1,4 @@
-# TITULO DO PROJETO
+# Di'Lanches
 
 
 **Eduardo Augusto Brito, email do aluno 1**
