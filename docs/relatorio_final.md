@@ -39,37 +39,50 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## 1. Introdução
 
-A introdução deve apresentar de dois ou quatro parágrafos de contextualização do trabalho. 
+Um estabelecimento onde são recebidos muitos pedidos dos clientes, requer muita organização da parte dos atendentes para 
+que os pedidos não cheguem incorretos no setor de produção. Pensando nisso, nosso projeto tem como objetivo tornar o 
+processo de gestão desses pedidos o mais simples, fácil e eficiente possível.
+
 
     1.1 Contextualização
 
-O Di’Lanches é uma empresa que possui um software que permite os seus atendentes gerenciar e organizar os pedidos dos clientes, onde o(a) atendente gera códigos para os pedidos realizados, além disso o mesmo poderá selecionar o lanche, a forma de pagamento e se o cliente irá comer no local ou levar para a viagem.  
+O Di’Lanches é uma empresa que possui um software que permite os seus atendentes gerenciar e organizar os pedidos dos 
+clientes, onde o(a) atendente gera códigos para os pedidos realizados, além disso o mesmo poderá selecionar o lanche, 
+a forma de pagamento e se o cliente irá comer no local ou levar para a viagem.  
 
     1.2 Problema
     
-Imaginamos que uma hamburgueria possui muitos pedidos e os atendentes não possuem um sistema bem organizado, e por esse motivo os pedidos chegam à cozinha incorretos, e como consequência geram problemas no controle de estoque, atrasos nas entregas e pedidos sendo entregues incorretamente.
+Imaginamos que uma hamburgueria possui muitos pedidos e os atendentes não possuem um sistema bem organizado, 
+e por esse motivo os pedidos chegam à cozinha incorretos, e como consequência geram problemas no controle de estoque, 
+atrasos nas entregas e pedidos sendo entregues incorretamente.
 
     1.3 Objetivo geral
 
-O Objetivo Geral desse Projeto será elaborar um sistema para pedidos de lanches de um restaurante, onde iremos priorizar a precisão no Controle de Estoque e o/a atendente do estabelecimento terá acesso a uma interface simplicada e de fácil uso.
+O Objetivo Geral desse Projeto será elaborar um sistema para pedidos de lanches de um restaurante, onde iremos priorizar 
+a precisão no Controle de Estoque e o/a atendente do estabelecimento terá acesso a uma interface simplicada e de fácil uso.
 
         1.3.1 Objetivos específicos
 
-O Projeto tem como Objetivo Específico criar uma Interface para o Sistema, de modo que o atendente consiga realizar os processo dos pedidos mais facilmente, e criar um Banco de Dados preciso para que informe sobre os Status dos produtos(Disponível, Em Falta, etc...).
+O Projeto tem como Objetivo Específico criar uma Interface para o Sistema, de modo que o atendente consiga realizar 
+os processo dos pedidos mais facilmente, e criar um Banco de Dados preciso para que informe sobre os Status dos 
+produtos(Disponível, Em Falta, etc...).
 
     1.4 Justificativas
 
-O Trabalho será desenvolvido com o intuito de facilitar o processo de pedidos de um restaurante, prezando pela qualidade, facilidade e agilidade no processo.
+O Trabalho será desenvolvido com o intuito de facilitar o processo de pedidos de um restaurante, prezando pela qualidade, 
+facilidade e agilidade no processo.
 
 ## 2. Participantes do processo
 
-Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo) chave do sistema. Diversas são as informações que podem ser relevantes para a definição dos perfis dos usuários, tais como idade, gênero, aspectos culturais, nível de educação, entre outros. A pesquisa de mercado pode ser uma ferramenta poderosa para se identificar e caracterizar os perfis de usuários.
+O participante do processo pode ser definido como restaurantes fast-foods. Empresas que possuem uma demanda alta de pedidos 
+ao mesmo tempo e necessitam que os pedidos cheguem ao setor de maneira clara. 
 
 ## 3. Modelagem do processo de negócio
 
 ## 3.1. Análise da situação atual
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional.
+Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos. Muitas vezes ocorre de o 
+cliente realizar um pedido de algo que o restaurante está em falta, e só depois o atendente dar conta disso, causando conflitos.
 
 ## 3.2. Descrição Geral da proposta
 
