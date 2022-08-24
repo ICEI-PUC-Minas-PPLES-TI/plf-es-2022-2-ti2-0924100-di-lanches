@@ -51,22 +51,13 @@ Imaginamos que uma hamburgueria possui muitos pedidos e os atendentes não possu
 
     1.3 Objetivo geral
 
-O aluno deve escrever um pequeno parágrafo ou frase com o **objetivo geral** do trabalho. 
-O objetivo deve ser bem direto, específico e definido com verbos de ação (elaborar, propor, ava-liar, comparar etc.).
-
 O Objetivo Geral desse Projeto será elaborar um sistema para pedidos de lanches de um restaurante, onde iremos priorizar a precisão no Controle de Estoque e o/a atendente do estabelecimento terá acesso a uma interface simplicada e de fácil uso.
 
         1.3.1 Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-
 O Projeto tem como Objetivos Específicos criar uma Interface para o Sistema, de modo que o atendente consiga realizar os processo dos pedidos mais facilmente, e criar um Banco de Dados preciso para que informe sobre os Status dos produtos(Disponível, Em Falta, etc...).
 
     1.4 Justificativas
-
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
 
 O Trabalho será desenvolvido com o intuito de facilitar o processo de pedidos de um restaurante, prezando pela qualidade, facilidade e agilidade no processo.
 
