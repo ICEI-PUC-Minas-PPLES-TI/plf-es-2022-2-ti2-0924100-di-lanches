@@ -9,7 +9,7 @@
 
 **Guilherme Augustto Costa Barros, 1334415@sga.pucminas.br**
 
-**Henrique Pinto Santos, henrique.santos.1267265@sga.pucminas.br
+**Henrique Pinto Santos, henrique.santos.1267265@sga.pucminas.br**
 
 **José Miguel Quintão Magalhães, email do aluno 6**
 
