@@ -31,8 +31,13 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+Com o avanço da Tecnologia, a maioria das coisas ao nosso redor se tornou de fácil acesso e com muito mais conforto. Uma dessas coisas é o sistema de Delivery. Com o 
+objetivo de facilitar o acesso a diversos tipos de comida em sua própria residência com apenas um smartphone. Porém, sabemos que às vezes uma nova tecnologia sofre com 
+diversos problemas de processo e organização. Em um sistema de delivery, podemos pensar em problemas como: Pedido entregue errado, ingredientes faltantes no prato 
+pedido, entrega demorada e falta de organização dos pedidos (ordem de abertura) na cozinha para a preparação.
+
+Nosso objetivo é desenvolver um projeto que faça com que a solicitação de pedido seja feita de forma simples, e que garanta a qualidade da entrega e de produção mais 
+viável possível, e que ponte entre o cliente e o fornecedor seja mais muito mais cômoda para ambos os lados. 
 
 ---
 
