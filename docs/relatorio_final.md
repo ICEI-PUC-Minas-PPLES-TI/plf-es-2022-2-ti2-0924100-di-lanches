@@ -1,7 +1,7 @@
 # Di'Lanches
 
 
-**Eduardo Augusto Brito, email do aluno 1**
+**Eduardo Augusto Brito, 1397390@sga.pucminas.br**
 
 **Eron Panes de Moraes, epmoraes@sga.pucminas.br**
 
