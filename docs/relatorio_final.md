@@ -86,7 +86,7 @@ cliente realizar um pedido de algo que o restaurante está em falta, e só depoi
 
 ## 3.2. Descrição Geral da proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu número de clientes, buscando atender a demanda o proprietário do estabelecimento foi a procura de soluções eficientes para solucionar o problema. Em busca de uma opção mais duradoura decidiu investir em um sistema de software onde pudesse ter um melhor controle de estoque um sistema de atendimento mais interativo. Através do Software o "Di" poderá acessar as quantias de cada alimento dentro de sua empresa, além de criar um pedido com instruções precisas para a preparação na cozinha. 
 
 ## 3.3. Modelagem dos Processos
 
