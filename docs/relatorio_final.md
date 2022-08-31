@@ -1,7 +1,7 @@
 # Di'Lanches
 
 
-**Eduardo Augusto Brito, email do aluno 1**
+**Eduardo Augusto Brito, 1397390@sga.pucminas.br**
 
 **Eron Panes de Moraes, epmoraes@sga.pucminas.br**
 
@@ -31,8 +31,17 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+Com o avanço da Tecnologia, a maioria das coisas ao nosso redor se tornou de fácil acesso e com muito mais conforto. Uma dessas coisas é o sistema de Delivery. Com o 
+objetivo de facilitar o acesso a diversos tipos de comida em sua própria residência com apenas um smartphone. Porém, sabemos que às vezes uma nova tecnologia sofre com 
+diversos problemas de processo e organização. Em um sistema de delivery, podemos pensar em problemas como: Pedido entregue errado, ingredientes faltantes no prato 
+pedido, entrega demorada e falta de organização dos pedidos (ordem de abertura) na cozinha para a preparação.
+
+Nosso objetivo é desenvolver um projeto que faça com que a solicitação de pedido seja feita de forma simples, e que garanta a qualidade da entrega e de produção mais 
+viável possível, e que ponte entre o cliente e o fornecedor seja muito mais cômoda para ambos os lados. Entendemos que hoje a exigência por serviços de qualidade estão 
+aumentando a cada dia, a avaliação de cada cliente seja um comentário ou uma avalição em notas, podem gerar impactos positivos ou negativos para uma determinada 
+empresa, com isso os processos estão em constantes evoluções.
+
+
 
 ---
 
@@ -95,7 +104,6 @@ A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
-
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
 
