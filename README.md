@@ -1,6 +1,6 @@
 # Di'Lanches
 
-O contexto do projeto do grupo Di’Lanches é a criação de um sistema de geração de pedidos com base em um menu de opções de alimentos com estoque e preço definidos.
+O contexto do projeto do grupo Di’Lanches é a criação de um sistema de geração de pedidos com base em um menu de opções de alimentos com estoque e preço definidos. Facilitando a ponte entre o cliente e o fornecedor.
 
 ## Integrantes
 
