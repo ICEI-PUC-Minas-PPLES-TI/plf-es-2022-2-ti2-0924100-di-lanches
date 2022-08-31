@@ -37,7 +37,11 @@ diversos problemas de processo e organização. Em um sistema de delivery, podem
 pedido, entrega demorada e falta de organização dos pedidos (ordem de abertura) na cozinha para a preparação.
 
 Nosso objetivo é desenvolver um projeto que faça com que a solicitação de pedido seja feita de forma simples, e que garanta a qualidade da entrega e de produção mais 
-viável possível, e que ponte entre o cliente e o fornecedor seja mais muito mais cômoda para ambos os lados. 
+viável possível, e que ponte entre o cliente e o fornecedor seja muito mais cômoda para ambos os lados. Entendemos que hoje a exigência por serviços de qualidade estão 
+aumentando a cada dia, a avaliação de cada cliente seja um comentário ou uma avalição em notas, podem gerar impactos positivos ou negativos para uma determinada 
+empresa, com isso os processos estão em constantes evoluções.
+
+
 
 ---
 
