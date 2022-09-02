@@ -4,18 +4,18 @@ O contexto do projeto do grupo Di’Lanches é a criação de um sistema de gera
 
 ## Integrantes
 
-* Eduardo Augusto Brito
-* Eron Panes de Moraes
-* Pablo Guilherme A.P Magela
-* Guilherme Augustto Costa Barros
-* Henrique Pinto Santos
-* José Miguel Quintão Magalhães
+* **Eduardo Augusto Brito**
+* **Eron Panes de Moraes**
+* **Pablo Guilherme A.P Magela**
+* **Guilherme Augustto Costa Barros**
+* **Henrique Pinto Santos**
+* **José Miguel Quintão Magalhães**
 
 ## Professores
 
-* Cristiano Geraldo Teixeira Silva
-* Felipe Augusto Lima Reis
-* Hugo Bastos de Paula
+* **Cristiano Geraldo Teixeira Silva**
+* **Felipe Augusto Lima Reis**
+* **Hugo Bastos de Paula**
 
 ## Instruções de utilização
 
