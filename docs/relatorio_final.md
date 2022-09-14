@@ -112,6 +112,12 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
+### 3.3.3 Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
+
+A cozinha recebe o código que foi gerado no processo 1, a cozinha irá verificar se tem todos os ingredientes necessários para o preparo, se não tiver, o pedido será 
+cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar realizar outro pedido, assim será feito e voltaremos ao processo 1. Se houver   
+disponibilidade de ingredientes, o pedido será preparado.
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
