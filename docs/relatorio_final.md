@@ -84,7 +84,7 @@ facilidade e agilidade no processo.
 ## 2. Participantes do processo
 
 O participante do processo pode ser definido como restaurantes fast-foods. Empresas que possuem uma demanda alta de pedidos 
-ao mesmo tempo e necessitam que os pedidos cheguem ao setor de maneira clara. 
+ao mesmo tempo e necessitam que os pedidos cheguem ao setor de maneira clara. Abordando as seguintes areas dos estabelecimentos no decorrer do processo serao introduzidos os seguintes participantes como o atendente, o cozinheiro, o entregador, o cobrador e tambem sendo inserido o cliente como um dos participantes, tambem sendo colocado tanto quanto o dono e tambem o gerente ou entao o financeirto, podendo ser usado para ver a evolução do seu estabelecimento sendo assim um processo que envolve todos os colaboradores desse estabelecimento
 
 ## 3. Modelagem do processo de negócio
 
