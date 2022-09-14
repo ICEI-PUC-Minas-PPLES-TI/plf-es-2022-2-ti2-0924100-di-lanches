@@ -106,7 +106,9 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
+
+O processo de controle de estoque é um sistema que irá armazenar os produtos e ingredientes de um usuário para poder garantir que a quantidades certa de mercadorias esteja disponível para o usuário. Com controles internos e de produção adequadas, essa prática garante que o usuário possa atender às demandas dos clientes de forma mais eficaz possível.
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
