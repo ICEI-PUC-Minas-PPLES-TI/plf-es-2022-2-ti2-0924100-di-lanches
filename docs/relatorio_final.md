@@ -90,8 +90,7 @@ ao mesmo tempo e necessitam que os pedidos cheguem ao setor de maneira clara.
 
 ## 3.1. Análise da situação atual
 
-Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos. Muitas vezes ocorre de o 
-cliente realizar um pedido de algo que o restaurante está em falta, e só depois o atendente dar conta disso, causando conflitos.
+Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos. Muitas vezes ocorre de o cliente realizar um pedido de algo que o restaurante está em falta, e só depois o atendente dar conta disso, causando conflitos.
 
 ## 3.2. Descrição Geral da proposta
 
@@ -99,7 +98,9 @@ A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – PROCESSO DE CRIAR PEDIDO
+
+O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera. 
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
 
