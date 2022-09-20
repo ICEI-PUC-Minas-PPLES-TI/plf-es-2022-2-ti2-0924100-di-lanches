@@ -106,7 +106,7 @@ O processo de criação de pedido retrata o sistema de atendimento de um cliente
 
 ### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
 
-O processo de controle de estoque é um sistema que irá armazenar os produtos e ingredientes de um usuário para poder garantir que a quantidades certa de mercadorias esteja disponível para o usuário. Com controles internos e de produção adequadas, essa prática garante que o usuário possa atender às demandas dos clientes de forma mais eficaz possível.
+O processo de controle de estoque é um sistema que irá fornecer a situação atual da quantidade de produtos armazenados no estabelecimento e possibilitar inserir e retirar quantias quando uma alteração do estoque for realizada pelo proprietário.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
