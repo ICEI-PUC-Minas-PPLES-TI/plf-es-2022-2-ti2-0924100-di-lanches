@@ -127,14 +127,13 @@ Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um
 
 ### 3.3.5 Processo 5 – PROCESSO DE CHAMAR O MOTOBOY E ENTREGA
 
-Após o pedido ser feito e gerado o código, 
+Após o cliente realizar o pedido e o código ser gerado, o Motoboy do restaurante é acionado e recebe as informações sobre o endereço da entrega, após a entrega ser realizada o Motoboy volta para o restaurante e informa que a entrega foi realizada, depois disso é atualizado no sistema com o Status "Pedido Entregue".
 
 ![Exemplo de um Modelo BPMN do PROCESSO 5](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
 ### 3.3.6 Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
 
-Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um nome, preço, uma imagem,itens do produto, ordem e o tipo desse produto fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse produto não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
-(Cliente ou atendente).
+Após o pedido ser gerado, existe a possibilidade do cancelamento. O software da Di'Lanches conta com uma opção de "Cancelamento do Pedido", em que o cliente solicita esse cancelamento após clicar nessa opção, lá ele têm um espaço para justificar seu cancelamento, onde é analisada essa justificativa com um possivel estorno do dinheiro, depois disso é atualizado no sistema com o Status "Pedido Cancelado".
 
 ![Exemplo de um Modelo BPMN do PROCESSO 6](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
