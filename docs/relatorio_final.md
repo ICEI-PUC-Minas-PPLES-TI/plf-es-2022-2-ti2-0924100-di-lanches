@@ -100,17 +100,13 @@ A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu
 
 ### 3.3.1 Processo 1 – PROCESSO DE CRIAR PEDIDO
 
-O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera. 
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
 
 ### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
 
 O processo de controle de estoque é um sistema que irá armazenar os produtos e ingredientes de um usuário para poder garantir que a quantidades certa de mercadorias esteja disponível para o usuário. Com controles internos e de produção adequadas, essa prática garante que o usuário possa atender às demandas dos clientes de forma mais eficaz possível.
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
@@ -119,24 +115,27 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 A cozinha recebe o código que foi gerado no processo 1, a cozinha irá verificar se tem todos os ingredientes necessários para o preparo, se não tiver, o pedido será 
 cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar realizar outro pedido, assim será feito e voltaremos ao processo 1. Se houver   
 disponibilidade de ingredientes, o pedido será preparado.
+
 ![Exemplo de um Modelo BPMN do PROCESSO 3](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
 ### 3.3.4 Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
 
 Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um nome, preço, uma imagem,itens do produto, ordem e o tipo desse produto fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse produto não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
 (Cliente ou atendente).
+
 ![Exemplo de um Modelo BPMN do PROCESSO 4](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
 ### 3.3.5 Processo 5 – PROCESSO DE CHAMAR O MOTOBOY E ENTREGA
 
-Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um nome, preço, uma imagem,itens do produto, ordem e o tipo desse produto fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse produto não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
-(Cliente ou atendente).
+Após o pedido ser feito e gerado o código, 
+
 ![Exemplo de um Modelo BPMN do PROCESSO 5](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
 ### 3.3.6 Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
 
 Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um nome, preço, uma imagem,itens do produto, ordem e o tipo desse produto fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse produto não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
 (Cliente ou atendente).
+
 ![Exemplo de um Modelo BPMN do PROCESSO 6](imagens/call_process.png "Modelo BPMN do Processo 2.")
 
 ## 4. Projeto da Solução
