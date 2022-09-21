@@ -105,12 +105,12 @@ Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no 
 
 A hamburgueria fictícia “Di'Lanches” recentemente obteve um grande aumento em seu número de clientes. Buscando atender a demanda, o proprietário do estabelecimento foi a procura de soluções eficientes para solucionar o problema. Em busca de uma opção mais duradoura decidiu investir em um sistema de software onde pudesse ter um melhor controle de estoque um sistema de atendimento mais interativo. 
 Como principal objetivo da proposta o software pretende proporcionar um conjunto de 6 funcionalidades que possibilitam administrar os recursos da Hamburgueria. São essas funcionalidades:
-•	Processo de criação de pedidos: Nesse processo o atendente poderá efetuar um pedido para o cliente.
-•	Controle de estoque: Nesse processo o proprietário poderá efetuar entradas e saídas de estoque para melhor organização dos recursos.
-•	Processo de receber pedido: Nesse processo será feita uma validação para conferir se o estoque possui os ingredientes necessários para atender o pedido efetuado pelo cliente.
-•	Processo de criação de cardápio: Nesse processo o proprietário poderá adicionar ou retirar produtos do cardápio da hamburgueria.
-•	Processo de chamar motoboy: Nesse processo o pedido será enviado para uma agência de motoboys que se houver disponibilidade enviará o lanche para a residência do cliente.
-•	Processo de cancelamento de pedido: Nesse processo o pedido poderá ser cancelado caso seja a escolha do cliente.
+<br>•	Processo de criação de pedidos: Nesse processo o atendente poderá efetuar um pedido para o cliente.
+<br>•	Controle de estoque: Nesse processo o proprietário poderá efetuar entradas e saídas de estoque para melhor organização dos recursos.
+<br>•	Processo de receber pedido: Nesse processo será feita uma validação para conferir se o estoque possui os ingredientes necessários para atender o pedido efetuado pelo cliente.
+<br>•	Processo de criação de cardápio: Nesse processo o proprietário poderá adicionar ou retirar produtos do cardápio da hamburgueria.
+<br>•	Processo de chamar motoboy: Nesse processo o pedido será enviado para uma agência de motoboys que se houver disponibilidade enviará o lanche para a residência do cliente.
+<br>•	Processo de cancelamento de pedido: Nesse processo o pedido poderá ser cancelado caso seja a escolha do cliente.
  
 
 ## 3.3. Modelagem dos Processos
