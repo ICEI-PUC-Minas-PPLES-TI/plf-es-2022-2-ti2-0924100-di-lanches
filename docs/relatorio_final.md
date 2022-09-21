@@ -152,7 +152,7 @@ Após o cliente realizar o pedido e o código ser gerado, o Motoboy do restauran
 
 ### 3.3.6 Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
 
-Após o pedido ser gerado, existe a possibilidade do cancelamento. O software da Di'Lanches conta com uma opção de "Cancelamento do Pedido", em que o cliente solicita esse cancelamento após clicar nessa opção, lá ele têm um espaço para justificar seu cancelamento, onde é analisada essa justificativa com um possivel estorno do dinheiro, depois disso é atualizado no sistema com o Status "Pedido Cancelado".
+Após o pedido ser gerado, existe a possibilidade do cancelamento. O software da Di'Lanches conta com uma opção de "Cancelamento do Pedido", em que o cliente solicita esse cancelamento após clicar nessa opção, lá ele têm um espaço para justificar seu cancelamento, onde é analisada essa justificativa com um possível estorno do dinheiro, depois disso é atualizado no sistema com o Status "Pedido Cancelado".
 
 <p align="center">
   <img src="https://imgur.com/AbnMiKx.png"/>
