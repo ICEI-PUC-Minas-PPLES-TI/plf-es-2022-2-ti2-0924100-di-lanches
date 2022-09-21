@@ -83,8 +83,15 @@ facilidade e agilidade no processo.
 
 ## 2. Participantes do processo
 
-O participante do processo pode ser definido como restaurantes fast-foods. Empresas que possuem uma demanda alta de pedidos 
-ao mesmo tempo e necessitam que os pedidos cheguem ao setor de maneira clara. Abordando as seguintes areas dos estabelecimentos no decorrer do processo serao introduzidos os seguintes participantes como o atendente, o cozinheiro, o entregador, o cobrador e tambem sendo inserido o cliente como um dos participantes, tambem sendo colocado tanto quanto o dono e tambem o gerente ou entao o financeirto, podendo ser usado para ver a evolução do seu estabelecimento sendo assim um processo que envolve todos os colaboradores desse estabelecimento
+- Cliente: O cliente sendo o Stakeholder primário, ele é a peça fundamental para a criação de todo o nosso processo. Sem o cliente, não haverá alternativas para dar andamento nos pedidos. Ele sendo responsável por fazer os pedidos, selecionando o que irá consumir e a forma de pagamento desejada.
+
+- Atendente: O atendente terá o papel de anotar todo o pedido do cliente de forma que não gere pedidos errado a cozinha.
+
+- Cozinheiro/Cozinha: A cozinha irá atuar na linha de frente da preparação do pedido. É importante que a cozinha e o atendente estejam alinhados para não gerar pedidos errados para o cliente.
+
+- Motoboy: Com a evolução dos pedidos por aplicativos, o motoboy se tornou uma peça importante para quem quer apenas consumir em seu lar. Ele é responsável por garantir uma entrega eficiente, para que a refeição chegue em bom estado e no menor tempo possível.
+
+<a href="https://imgur.com/2nMs4oU"><img src="https://i.imgur.com/2nMs4oU.jpg" title="source: imgur.com" /></a>
 
 ## 3. Modelagem do processo de negócio
 
