@@ -125,7 +125,9 @@ A cozinha recebe o código que foi gerado no processo 1, a cozinha irá verifica
 cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar realizar outro pedido, assim será feito e voltaremos ao processo 1. Se houver   
 disponibilidade de ingredientes, o pedido será preparado.
 
-![Exemplo de um Modelo BPMN do PROCESSO 3](imagens/call_process.png "Modelo BPMN do Processo 2.")
+<p align="center">
+  <img src="https://imgur.com/RnzJrsf.png"/>
+</p>
 
 ### 3.3.4 Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
 
