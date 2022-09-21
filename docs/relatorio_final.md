@@ -146,13 +146,17 @@ Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um
 
 Após o cliente realizar o pedido e o código ser gerado, o Motoboy do restaurante é acionado e recebe as informações sobre o endereço da entrega, após a entrega ser realizada o Motoboy volta para o restaurante e informa que a entrega foi realizada, depois disso é atualizado no sistema com o Status "Pedido Entregue".
 
-![Exemplo de um Modelo BPMN do PROCESSO 5](imagens/call_process.png "Modelo BPMN do Processo 2.")
+<p align="center">
+  <img src="https://imgur.com/RnzJrsf.png"/>
+</p>
 
 ### 3.3.6 Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
 
 Após o pedido ser gerado, existe a possibilidade do cancelamento. O software da Di'Lanches conta com uma opção de "Cancelamento do Pedido", em que o cliente solicita esse cancelamento após clicar nessa opção, lá ele têm um espaço para justificar seu cancelamento, onde é analisada essa justificativa com um possivel estorno do dinheiro, depois disso é atualizado no sistema com o Status "Pedido Cancelado".
 
-![Exemplo de um Modelo BPMN do PROCESSO 6](imagens/call_process.png "Modelo BPMN do Processo 2.")
+<p align="center">
+  <img src="https://imgur.com/RnzJrsf.png"/>
+</p>
 
 ## 4. Projeto da Solução
 
