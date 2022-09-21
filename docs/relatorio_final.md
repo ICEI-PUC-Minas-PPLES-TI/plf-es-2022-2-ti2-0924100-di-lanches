@@ -134,7 +134,9 @@ disponibilidade de ingredientes, o pedido será preparado.
 Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um nome, preço, uma imagem,itens do produto, ordem e o tipo desse produto fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse produto não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
 (Cliente ou atendente).
 
-![Exemplo de um Modelo BPMN do PROCESSO 4](imagens/call_process.png "Modelo BPMN do Processo 2.")
+<p align="center">
+  <img src="https://imgur.com/eUTnc3e.png"/>
+</p>
 
 ### 3.3.5 Processo 5 – PROCESSO DE CHAMAR O MOTOBOY E ENTREGA
 
