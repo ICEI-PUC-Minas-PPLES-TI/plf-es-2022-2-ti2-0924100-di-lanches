@@ -17,7 +17,7 @@
 
 Professores:
 
-**Cristiano Geraldo Teixeira Silva**
+**Cristiano Neves Rodrigues**
 
 **Felipe Augusto Lima Reis**
 
