@@ -174,6 +174,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Imagem | imagem | null | SemFoto.png |
 | Descricao | label | null | N/A |
 | Valor | label | formatado em real | 0 |
+
 **Editar lanches**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
