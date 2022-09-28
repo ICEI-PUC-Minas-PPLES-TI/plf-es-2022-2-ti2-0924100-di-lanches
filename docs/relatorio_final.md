@@ -112,7 +112,7 @@ A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu
 O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera.
 
 <p align="center">
-  <img src="https://i.imgur.com/bssp2ic.png"/>
+  <img src="https://i.imgur.com/HI1yZHR.png"/>
 </p>
 
 ### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
