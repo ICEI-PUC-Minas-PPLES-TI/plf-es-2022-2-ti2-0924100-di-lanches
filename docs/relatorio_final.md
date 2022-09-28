@@ -212,22 +212,37 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | troco | Number | Formatar em real | 0 |
 
 
-#### Processo 2 – NOME DO PROCESSO
+#### Processo 2 – CONTROLE DE ESTOQUE
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
+**Mostrar Produto**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Nome | Text | null | N/A |
+|  Imagem  |  imagem  | null |  SemFoto.png |
+| Descricao | Caixa de texto | null | N/A |
+| Valor | Número | null | N/A |
 
+
+**Editar Produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Text | null | N/A |
+|  Imagem  |  imagem  | null |  SemFoto.png |
+| Descricao | Caixa de texto | null | N/A |
+| Valor | Número | null | N/A |
+| Atualizar item | Button | null | N/A |
+
+
+**Adicionar Produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| Nome | Text | null | N/A |
+|  Imagem  |  imagem  | null |  SemFoto.png |
+| Descricao | Caixa de texto | null | N/A |
+| Valor | Número | null | N/A |
+| Adcionar item | Button | null | N/A |
 
 
 #### Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
