@@ -112,7 +112,7 @@ A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu
 O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera.
 
 <p align="center">
-  <img src="https://i.imgur.com/cpxM9Uw.png"/>
+  <img src="https://i.imgur.com/bssp2ic.png"/>
 </p>
 
 ### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
@@ -208,14 +208,18 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
 |    |    |     |
 
-#### Processo 4 – NOME DO PROCESSO
+#### Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
 
-**Nome da atividade 1**
+**Atividade Criar produto**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Nome | Caixa de texto | Mínimo de 2 caractéres |  |
+| Preço | Caixa numérica | Maior que 0 |  |
+| Imagem | Arquivo imagem | Arquivo tipo jpeg | Sem imagem  |
+| Itens do produto | Caixa de texto | Mínimo um produto vínculado |  |
+| Tipo do produto | Caixa de texto |  | Nenhum tipo |
+| Produto ativo | Caixa boolean | Ativo ou Inativo | inativo |
 
 #### Processo 5 – NOME DO PROCESSO
 
