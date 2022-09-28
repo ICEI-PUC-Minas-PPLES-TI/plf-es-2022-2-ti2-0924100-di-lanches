@@ -238,6 +238,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 **Adicionar Produto**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Nome | Text | null | N/A |
 |  Imagem  |  imagem  | null |  SemFoto.png |
 | Descricao | Caixa de texto | null | N/A |
