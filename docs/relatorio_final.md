@@ -164,23 +164,52 @@ Após o pedido ser gerado, existe a possibilidade do cancelamento. O software da
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – Criação de pedidos
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
-
-**Nome da atividade 2**
+**Mostrar Cardapio**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
+| Nome | label | |  |
+| Imagem | imagem |  |   |
+| Descricao | label |  |   |
+| Valor | label | formatado em real |   |
+**Editar lanches**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Label |  | |
+| Imagem | Imagem |  |   |
+| Quantidade de acrecimo | Number | Não pode ser negativo | Quantidade default do pedido |
+| Adicionar item | Button |  |   |
+
+**Informar Endereço**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Rua | Text |  | |
+| Bairro | Text |  | |
+| Cidade | Text |  | |
+| Estado | Text |  | |
+| Numero | Number |  | |
+| CEP | Text |  | |
+
+**Informar Contato**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Text |  | |
+| Telefone | Text |  | |
+
+
+**Informar forma de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Tipo | Radio Button |  | |
+| Valor total | Number | Formatar em real | |
+| troco | Number | Formatar em real | |
+
 
 #### Processo 2 – NOME DO PROCESSO
 
