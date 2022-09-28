@@ -92,7 +92,7 @@ facilidade e agilidade no processo.
 - Motoboy: Com a evolução dos pedidos por aplicativos, o motoboy se tornou uma peça importante para quem quer apenas consumir em seu lar. Ele é responsável por garantir uma entrega eficiente, para que a refeição chegue em bom estado e no menor tempo possível.
 
 <p align="center">
-  <img src="https://i.imgur.com/bssp2ic.jpg" />
+  <img src="https://i.imgur.com/2nMs4oU.jpg" />
 </p>
 
 ## 3. Modelagem do processo de negócio
