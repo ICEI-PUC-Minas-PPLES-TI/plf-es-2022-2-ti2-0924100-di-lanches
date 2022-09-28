@@ -170,45 +170,45 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | label | |  |
-| Imagem | imagem |  |   |
-| Descricao | label |  |   |
-| Valor | label | formatado em real |   |
+| Nome | label | null | N/A |
+| Imagem | imagem | null | SemFoto.png |
+| Descricao | label | null | N/A |
+| Valor | label | formatado em real | 0 |
 **Editar lanches**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Label |  | |
-| Imagem | Imagem |  |   |
+| Nome | Label | null | N/A |
+| Imagem | Imagem | null | N/A |
 | Quantidade de acrecimo | Number | Não pode ser negativo | Quantidade default do pedido |
-| Adicionar item | Button |  |   |
+| Adicionar item | Button | null | N/A |
 
 **Informar Endereço**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Rua | Text |  | |
-| Bairro | Text |  | |
-| Cidade | Text |  | |
-| Estado | Text |  | |
-| Numero | Number |  | |
-| CEP | Text |  | |
+| Rua | Text | null | N/A |
+| Bairro | Text | null | N/A |
+| Cidade | Text | null | N/A |
+| Estado | Text | null | N/A |
+| Numero | Number | null | N/A |
+| CEP | Text | null | N/A |
 
 **Informar Contato**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text |  | |
-| Telefone | Text |  | |
+| Nome | Text | null | N/A |
+| Telefone | Text | null | (00) 00000-0000 |
 
 
 **Informar forma de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Tipo | Radio Button |  | |
-| Valor total | Number | Formatar em real | |
-| troco | Number | Formatar em real | |
+| Tipo | Radio Button | null | N/A |
+| Valor total | Number | Formatar em real | 0 |
+| troco | Number | Formatar em real | 0 |
 
 
 #### Processo 2 – NOME DO PROCESSO
