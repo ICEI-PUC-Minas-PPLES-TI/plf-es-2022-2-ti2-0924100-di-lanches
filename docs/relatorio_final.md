@@ -298,11 +298,34 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 6 – NOME DO PROCESSO
 
-**Nome da atividade 1**
+**Solicitar Cancelamento do Pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Solicitar Cancelamento do Pedido | Botão | N/A | N/A |
+| Código do Pedido | Number | Apenas números inteiros | N/A |
+|    |    |     |
+
+**Justificar Cancelamento do Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Justificativa | Text | Não pode ser nulo | "Justificativa enviada!" |
+|    |    |     |
+
+**Cancelar Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Cancelar Pedido | Botão | N/A | N/A |
+| Código do Pedido | Number | Apenas números inteiros | N/A |
+|    |    |     |
+
+**Atualizar Status do Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Atualizar Status | Botão de Seleção | N/A | N/A |
 |    |    |     |
 
 ### 4.2. Tecnologias
