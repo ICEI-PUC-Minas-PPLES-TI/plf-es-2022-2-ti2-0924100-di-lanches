@@ -199,13 +199,49 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 |    |    |     |
 
 
-#### Processo 3 – NOME DO PROCESSO
 
-**Nome da atividade 1**
+#### Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
+
+**Receber pedido do atendente**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Código do Pedido | Número inteiro | Não pode ser nulo  | N/A |
+| Nome do Cliente | Tipo Texto | Não pode ser nulo  | N/A |
+| Pedido | Tipo Texto | Não pode ser nulo  | N/A |
+|    |    |     |
+
+
+**Verificar ingredientes**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Código do Pedido | Número inteiro | Não pode ser nulo  | N/A |
+| Nome do Cliente | Tipo Texto | Não pode ser nulo  | N/A |
+| Pedido | Tipo Texto | Não pode ser nulo  | N/A |
+|    |    |     |
+
+
+**Informar falta de ingredientes**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Comentário | Tipo Texto | Não pode ser nulo | "Desculpe, estamos sem o ingrediente {X}, por favor refaça o pedido!" |
+|    |    |     |
+
+
+**Preparar pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Preparar pedido | Botão | N/A | N/A |
+|    |    |     |
+
+**Preparar pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Pedido preparado | Botão | N/A | "O seu pedido está pronto para a retirada." |
 |    |    |     |
 
 #### Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
