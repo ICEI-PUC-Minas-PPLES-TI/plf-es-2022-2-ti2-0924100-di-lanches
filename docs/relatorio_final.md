@@ -130,7 +130,7 @@ cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar
 disponibilidade de ingredientes, o pedido será preparado.
 
 <p align="center">
-  <img src="https://imgur.com/RnzJrsf.png"/>
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/processo_cozinha.png"/>
 </p>
 
 ### 3.3.4 Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
