@@ -147,7 +147,7 @@ Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um
 Após o cliente realizar o pedido e o código ser gerado, o Motoboy do restaurante é acionado e recebe as informações sobre o endereço da entrega, após a entrega ser realizada o Motoboy volta para o restaurante e informa que a entrega foi realizada, depois disso é atualizado no sistema com o Status "Pedido Entregue".
 
 <p align="center">
-  <img src="https://imgur.com/tWVssvm.png](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Processo%205.png?raw=true"/>
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Processo%205.png?raw=true"/>
 </p>
 
 ### 3.3.6 Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
