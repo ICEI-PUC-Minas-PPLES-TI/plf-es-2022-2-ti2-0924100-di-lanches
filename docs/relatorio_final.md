@@ -139,7 +139,7 @@ Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um
 (Cliente ou atendente).
 
 <p align="center">
-  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/processo_cardapio_e_produto.png%22/%3E
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/processo_cardapio_e_produto.png"/>
 </p>
 
 ### 3.3.5 Processo 5 – PROCESSO DE CHAMAR O MOTOBOY E ENTREGA
