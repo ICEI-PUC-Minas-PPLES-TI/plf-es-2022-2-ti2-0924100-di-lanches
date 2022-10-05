@@ -120,7 +120,7 @@ O processo de criação de pedido retrata o sistema de atendimento de um cliente
 O processo de controle de estoque é um sistema que irá fornecer a situação atual da quantidade de produtos armazenados no estabelecimento e possibilitar inserir e retirar quantias quando uma alteração do estoque for realizada pelo proprietário.
 
 <p align="center">
-  <img src="https://imgur.com/a/J3jwZLQ"/>
+  <img src="https://i.imgur.com/9KwK0cr.png"/>
 </p>
 
 ### 3.3.3 Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
