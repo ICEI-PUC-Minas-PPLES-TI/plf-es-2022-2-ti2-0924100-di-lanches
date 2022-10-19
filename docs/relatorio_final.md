@@ -188,12 +188,12 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Rua | Text | null | N/A |
-| Bairro | Text | null | N/A |
-| Cidade | Text | null | N/A |
-| Estado | Text | null | N/A |
-| Numero | Number | null | N/A |
-| CEP | Text | null | N/A |
+| Rua | Text | Texto |  |
+| Bairro | Text | Texto |  |
+| Cidade | Text | Texto |  |
+| Estado | Text | Texto apenas 2 caracteres |  |
+| Numero | Number | Numero |  |
+| CEP | Text | Numero contendo 8 caracteres | |
 
 **Informar Contato**
 
