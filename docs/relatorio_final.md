@@ -217,7 +217,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 **Mostrar Produto**
 
 | **Campo** | **Tipo** | **Restrições** |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | Nome | Text | Apenas vizualisação |
 |  Imagem  |  imagem  | Apenas vizualisação |
 | Descricao | Caixa de texto | Apenas vizualisação |
