@@ -170,19 +170,19 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | label | null | N/A |
-| Imagem | imagem | null | SemFoto.png |
-| Descricao | label | null | N/A |
-| Valor | label | formatado em real | 0 |
+| Nome | Text |   |   |
+| Imagem | imagem |   | SemFoto.png |
+| Descricao | Text |   |   |
+| Valor | Text | formatado em real | 0 |
 
 **Editar lanches**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Label | null | N/A |
-| Imagem | Imagem | null | N/A |
+| Nome | Text |   |   |
+| Imagem | Imagem |   |   |
 | Quantidade de acrecimo | Number | Não pode ser negativo | Quantidade default do pedido |
-| Adicionar item | Button | null | N/A |
+| Adicionar item | Button |   |   |
 
 **Informar Endereço**
 
@@ -199,15 +199,15 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text | null | N/A |
-| Telefone | Text | null | (00) 00000-0000 |
+| Nome | Text |   |   |
+| Telefone | Text |   | (00) 00000-0000 |
 
 
 **Informar forma de pagamento**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Tipo | Radio Button | null | N/A |
+| Tipo | Radio Button |   |   |
 | Valor total | Number | Formatar em real | 0 |
 | troco | Number | Formatar em real | 0 |
 
@@ -218,32 +218,32 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text | null | N/A |
-|  Imagem  |  imagem  | null |  SemFoto.png |
-| Descricao | Caixa de texto | null | N/A |
-| Valor | Número | null | N/A |
+| Nome | Text |   |   |
+|  Imagem  |  imagem  |   |  SemFoto.png |
+| Descricao | Caixa de texto |   |   |
+| Valor | Número |   |   |
 
 
 **Editar Produto**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text | null | N/A |
-|  Imagem  |  imagem  | null |  SemFoto.png |
-| Descricao | Caixa de texto | null | N/A |
-| Valor | Número | null | N/A |
-| Atualizar item | Button | null | N/A |
+| Nome | Text |   |   |
+|  Imagem  |  imagem  |   |  SemFoto.png |
+| Descricao | Caixa de texto |   |   |
+| Valor | Número |   |   |
+| Atualizar item | Button |   |   |
 
 
 **Adicionar Produto**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text | null | N/A |
-|  Imagem  |  imagem  | null |  SemFoto.png |
-| Descricao | Caixa de texto | null | N/A |
-| Valor | Número | null | N/A |
-| Adcionar item | Button | null | N/A |
+| Nome | Text |   |   |
+|  Imagem  |  imagem  |   |  SemFoto.png |
+| Descricao | Caixa de texto |   |   |
+| Valor | Número |   |   |
+| Adcionar item | Button |   |   |
 
 
 #### Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
@@ -252,9 +252,9 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Código do Pedido | Número inteiro | Não pode ser nulo  | N/A |
-| Nome do Cliente | Tipo Texto | Não pode ser nulo  | N/A |
-| Pedido | Tipo Texto | Não pode ser nulo  | N/A |
+| Código do Pedido | Número inteiro | Não pode ser nulo  |   |
+| Nome do Cliente | Tipo Texto | Não pode ser nulo  |   |
+| Pedido | Tipo Texto | Não pode ser nulo  |   |
 |    |    |     |
 
 
@@ -262,9 +262,9 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Código do Pedido | Número inteiro | Não pode ser nulo  | N/A |
-| Nome do Cliente | Tipo Texto | Não pode ser nulo  | N/A |
-| Pedido | Tipo Texto | Não pode ser nulo  | N/A |
+| Código do Pedido | Número inteiro | Não pode ser nulo  |   |
+| Nome do Cliente | Tipo Texto | Não pode ser nulo  |   |
+| Pedido | Tipo Texto | Não pode ser nulo  |   |
 |    |    |     |
 
 
@@ -280,14 +280,14 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Preparar pedido | Botão | N/A | N/A |
+| Preparar pedido | Botão |   |   |
 |    |    |     |
 
 **Preparar pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Pedido preparado | Botão | N/A | "O seu pedido está pronto para a retirada." |
+| Pedido preparado | Botão |   | "O seu pedido está pronto para a retirada." |
 |    |    |     |
 
 #### Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
@@ -309,24 +309,24 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Gerar código | Number | Número inteiro não nulo | N/A |
+| Gerar código | Number | Número inteiro não nulo |   |
 |    |    |     |
 
 **Cominicação das infomações sobre a entrega**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome do cliente | Text | Apenas caracteres que são letras | N/A |
-| Endereço de entrega | Text | Apenas caracteres | N/A |
-| Código do pedido | Number | Número inteiro não nulo | N/A |
-| Telefone | Tel | 11 números no mínimo | N/A |
+| Nome do cliente | Text | Apenas caracteres que são letras |   |
+| Endereço de entrega | Text | Apenas caracteres |   |
+| Código do pedido | Number | Número inteiro não nulo |   |
+| Telefone | Tel | 11 números no mínimo |   |
 |    |    |     |
 
 **Atualizar Status do Pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Atualizar Status | Botão de Seleção | N/A | N/A |
+| Atualizar Status | Botão de Seleção |   |   |
 |    |    |     |
 
 #### Processo 6 – NOME DO PROCESSO
@@ -335,8 +335,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Solicitar Cancelamento do Pedido | Botão | N/A | N/A |
-| Código do Pedido | Number | Apenas números inteiros | N/A |
+| Solicitar Cancelamento do Pedido | Botão |   |   |
+| Código do Pedido | Number | Apenas números inteiros |   |
 |    |    |     |
 
 **Justificar Cancelamento do Pedido**
@@ -350,15 +350,15 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Cancelar Pedido | Botão | N/A | N/A |
-| Código do Pedido | Number | Apenas números inteiros | N/A |
+| Cancelar Pedido | Botão |   |   |
+| Código do Pedido | Number | Apenas números inteiros |   |
 |    |    |     |
 
 **Atualizar Status do Pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Atualizar Status | Botão de Seleção | N/A | N/A |
+| Atualizar Status | Botão de Seleção |   |   |
 |    |    |     |
 
 ### 4.2. Tecnologias
