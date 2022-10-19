@@ -179,10 +179,10 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text |   |   |
-| Imagem | Imagem |   |   |
-| Quantidade de acrecimo | Number | Não pode ser negativo | Quantidade default do pedido |
-| Adicionar item | Button |   |   |
+| Nome | Text |   | Dados já existentes |
+| Imagem | Imagem |   | Imagem já existente |
+| Quantidade de acrecimo | Number | Não pode ser negativo | Dados já existentes |
+| Adicionar item | Button |   | Dados já existentes |
 
 **Informar Endereço**
 
