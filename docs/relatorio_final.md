@@ -216,12 +216,12 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 **Mostrar Produto**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| **Campo** | **Tipo** | **Restrições** |
 | --- | --- | --- | --- |
-| Nome | Text |   |   |
-|  Imagem  |  imagem  |   |  SemFoto.png |
-| Descricao | Caixa de texto |   |   |
-| Valor | Número |   |   |
+| Nome | Text | Apenas vizualisação |
+|  Imagem  |  imagem  | Apenas vizualisação |
+| Descricao | Caixa de texto | Apenas vizualisação |
+| Valor | Número | Apenas vizualisação | 
 
 
 **Editar Produto**
@@ -231,7 +231,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Nome | Text |   |   |
 |  Imagem  |  imagem  |   |  SemFoto.png |
 | Descricao | Caixa de texto |   |   |
-| Valor | Número |   |   |
+| Valor | Número | Real |   |
 | Atualizar item | Button |   |   |
 
 
@@ -239,10 +239,10 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Text |   |   |
+| Nome | Text |  Tamanho |   |
 |  Imagem  |  imagem  |   |  SemFoto.png |
 | Descricao | Caixa de texto |   |   |
-| Valor | Número |   |   |
+| Valor | Número | Real |   |
 | Adcionar item | Button |   |   |
 
 
