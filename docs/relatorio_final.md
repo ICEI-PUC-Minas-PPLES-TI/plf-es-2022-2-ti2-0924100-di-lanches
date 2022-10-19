@@ -367,7 +367,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 ## 5. Modelo de dados
 
-Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
+Aqui esta apresentado o modelo de banco de dados logico mostrando como será armazenado todos dados para o funcionamento desse sistema.
 
 ![Diagrama de Entidade Relacionamento de Di'lanches](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/banco_logico.png "Diagrama de Entidade Relacionamento de Di'lanches")
 
