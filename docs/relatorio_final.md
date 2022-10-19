@@ -305,13 +305,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 #### Processo 5 –  PROCESSO DE CHAMAR O MOTOBOY E ENTREGA 
 
-**Gerar o código**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Gerar código | Number | Número inteiro não nulo |   |
-|    |    |     |
-
 **Cominicação das infomações sobre a entrega**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
@@ -327,9 +320,10 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Atualizar Status | Botão de Seleção |   |   |
+| Código do Pedido | Number | Apenas números inteiros |   |
 |    |    |     |
 
-#### Processo 6 – NOME DO PROCESSO
+#### Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
 
 **Solicitar Cancelamento do Pedido**
 
@@ -343,7 +337,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Justificativa | Text | Não pode ser nulo | "Justificativa enviada!" |
+| Justificativa | Text | Não pode ser nulo |  |
 |    |    |     |
 
 **Cancelar Pedido**
@@ -359,6 +353,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Atualizar Status | Botão de Seleção |   |   |
+| Código do Pedido | Number | Apenas números inteiros |   |
 |    |    |     |
 
 ### 4.2. Tecnologias
