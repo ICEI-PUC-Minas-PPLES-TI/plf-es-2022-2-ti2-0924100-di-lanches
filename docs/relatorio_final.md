@@ -257,17 +257,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Pedido | Tipo Texto | Não pode ser nulo  |   |
 |    |    |     |
 
-
-**Verificar ingredientes**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Código do Pedido | Número inteiro | Não pode ser nulo  |   |
-| Nome do Cliente | Tipo Texto | Não pode ser nulo  |   |
-| Pedido | Tipo Texto | Não pode ser nulo  |   |
-|    |    |     |
-
-
 **Informar falta de ingredientes**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
@@ -277,11 +266,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 
 **Preparar pedido**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Preparar pedido | Botão |   |   |
-|    |    |     |
 
 **Preparar pedido**
 
@@ -320,10 +304,9 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Atualizar Status | Botão de Seleção |   |   |
-| Código do Pedido | Number | Apenas números inteiros |   |
 |    |    |     |
 
-#### Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
+#### Processo 6 – NOME DO PROCESSO
 
 **Solicitar Cancelamento do Pedido**
 
@@ -337,7 +320,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Justificativa | Text | Não pode ser nulo |  |
+| Justificativa | Text | Não pode ser nulo | "Justificativa enviada!" |
 |    |    |     |
 
 **Cancelar Pedido**
@@ -345,15 +328,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Cancelar Pedido | Botão |   |   |
-| Código do Pedido | Number | Apenas números inteiros |   |
-|    |    |     |
-
-**Atualizar Status do Pedido**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Atualizar Status | Botão de Seleção |   |   |
-| Código do Pedido | Number | Apenas números inteiros |   |
 |    |    |     |
 
 ### 4.2. Tecnologias
