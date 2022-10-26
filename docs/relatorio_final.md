@@ -320,7 +320,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Justificativa | Text | Não pode ser nulo | "Justificativa enviada!" |
+| Justificativa | Text | Não pode ser nulo |  |
 |    |    |     |
 
 **Cancelar Pedido**
