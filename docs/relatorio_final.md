@@ -293,10 +293,10 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome do cliente | Text | Apenas caracteres que são letras |   |
-| Endereço de entrega | Text | Apenas caracteres |   |
-| Código do pedido | Number | Número inteiro não nulo |   |
-| Telefone | Tel | 11 números no mínimo |   |
+| Nome do cliente | Text | Visualização |   |
+| Endereço de entrega | Text | Visualização |   |
+| Código do pedido | Number | Visualização |   |
+| Telefone | Tel | Visualização |   |
 |    |    |     |
 
 **Atualizar Status do Pedido**
