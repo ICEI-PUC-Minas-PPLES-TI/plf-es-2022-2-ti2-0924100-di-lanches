@@ -99,7 +99,7 @@ facilidade e agilidade no processo.
 
 ## 3.1. Análise da situação atual
 
-Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos, o que pode trazer muitos problemas futuros para o estabelecimento. Ao anotar um pedido incorreto, por exemplo, tem como consequência, a montagem e entrega de lanches errados para os clientes. Além disso, se muitos pedidos são feitos ao mesmo tempo e são passados para a cozinha de maneira desorganizada, torna-se mais difícil o entendimento de qual pedido é o certo para um cliente específico, tornando o processo de fazer os lanches mais lento, gerando atrasos nas entregas e novamente pedidos sendo entregues incorretamente. Além do mais, sem um sistema de software adequado, e bem organizado, não conseguimos saber quais produtos estão no estoque, podendo causar problemas na organização e montagem dos pedidos, tendo como resultado os mesmos problemas citados acima. 
+Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos, o que pode trazer muitos problemas futuros para o estabelecimento. Ao anotar um pedido incorreto, por exemplo, tem como consequência, a montagem e entrega de lanches errados para os clientes. Além disso, se muitos pedidos são feitos ao mesmo tempo e são passados para a cozinha de maneira desorganizada, torna-se mais difícil o entendimento de qual pedido é o certo para um cliente específico, tornando o processo de fazer os lanches mais lento, gerando atrasos nas entregas e novamente pedidos sendo entregues incorretamente. Além do mais, sem um sistema de software adequado, e bem organizado, não conseguimos saber quais ingredientes estão no estoque, podendo causar problemas na organização e montagem dos pedidos, tendo como resultado os mesmos problemas citados acima. 
 
 ## 3.2. Descrição Geral da proposta
 
@@ -117,7 +117,7 @@ O processo de criação de pedido retrata o sistema de atendimento de um cliente
 
 ### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
 
-O processo de controle de estoque é um sistema que irá fornecer a situação atual da quantidade de produtos armazenados no estabelecimento e possibilitar inserir e retirar quantias quando uma alteração do estoque for realizada pelo proprietário.
+O processo de controle de estoque é um sistema que irá fornecer a situação atual da quantidade de ingredientes armazenados no estabelecimento e possibilitar inserir e retirar quantias quando uma alteração do estoque for realizada pelo proprietário.
 
 <p align="center">
   <img src="https://i.imgur.com/9KwK0cr.png"/>
