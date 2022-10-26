@@ -123,19 +123,19 @@ O processo de controle de estoque é um sistema que irá fornecer a situação a
   <img src="https://i.imgur.com/9KwK0cr.png"/>
 </p>
 
-### 3.3.3 Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
+### 3.3.3 Processo 3 – PROCESSO DE RECEBER O LANCHE (COZINHA)
 
-A cozinha recebe o código que foi gerado no processo 1, a cozinha irá verificar se tem todos os ingredientes necessários para o preparo, se não tiver, o pedido será 
-cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar realizar outro pedido, assim será feito e voltaremos ao processo 1. Se houver   
-disponibilidade de ingredientes, o pedido será preparado.
+A cozinha recebe o código que foi gerado no processo 1, a cozinha irá verificar se tem todos os ingredientes necessários para o preparo, se não tiver, o lanche será 
+cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar realizar outro lanche, assim será feito e voltaremos ao processo 1. Se houver   
+disponibilidade de ingredientes, o lanche será preparado.
 
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/processo_cozinha.png"/>
 </p>
 
-### 3.3.4 Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
+### 3.3.4 Processo 4 – PROCESSO DE CRIAÇÃO DE LANCHE
 
-Nesse processo de criação de cardapio/Produto sera obrigatorio a entrada de um nome, preço, uma imagem,itens do produto, ordem e o tipo desse produto fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse produto não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
+Nesse processo de criação de lanche sera obrigatorio a entrada de um nome, preço, uma imagem,itens do lanche, ordem e o tipo desse lanche fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse lanche não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
 (Cliente ou atendente).
 
 <p align="center">
