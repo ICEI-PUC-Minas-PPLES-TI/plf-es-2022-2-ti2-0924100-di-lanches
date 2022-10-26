@@ -338,7 +338,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 Aqui esta apresentado o modelo de banco de dados logico mostrando como será armazenado todos dados para o funcionamento desse sistema.
 
-![Diagrama de Entidade Relacionamento de Di'lanches](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/banco_logico_1_0.png "Diagrama de Entidade Relacionamento de Di'lanches")
+![Diagrama de Entidade Relacionamento de Di'lanches](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/banco_logico.png "Diagrama de Entidade Relacionamento de Di'lanches")
 
 ## 6. Indicadores de desempenho
 
