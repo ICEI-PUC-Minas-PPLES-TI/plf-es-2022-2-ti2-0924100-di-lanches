@@ -283,7 +283,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Nome | Caixa de texto | Mínimo de 2 caractéres |  |
 | Preço | Caixa numérica | Maior que 0 |  |
 | Imagem | Arquivo imagem | Arquivo tipo jpeg | Sem imagem  |
-| Itens do produto | Caixa de texto | Mínimo um produto vínculado |  |
+| Ingredientes do produto | Caixa de texto | Mínimo um produto vínculado |  |
 | Tipo do produto | Caixa de texto |  | Nenhum tipo |
 | Produto ativo | Caixa boolean | Ativo ou Inativo | inativo |
 
