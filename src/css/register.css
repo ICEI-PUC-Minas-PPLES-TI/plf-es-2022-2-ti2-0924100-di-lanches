@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+  margin: 0;
+}
+
+body{ 
+  display: flex;
+  flex-direction: row;
+}
+
+#logo{
+  width: 15vw;
+  margin-bottom: 5vh;
+}
+
+#left-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 6vw;
+  gap: 3vh;
+  
+  height: 100vh;
+
+  background-color: rgb(0, 0, 0);
+}
+
+#left-login h1{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+#left-login h2{
+  color: white;
+  font-size: 1.1rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+#left-login .button {
+  width: 17vw;
+  height: 10vh;
+  margin-top: 8vh;
+  border-radius: 50px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(20, 20, 20);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 15vh;
+  transition: 0.5s;
+}
+
+#left-login .button:hover{
+  transform: scale(1.03);
+  transition: 1s;
+  cursor: pointer;
+  background-color: rgb(34, 33, 33);
+}
+
+#right-login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+  background-color: rgb(233, 233, 233);
+  width: auto;
+  padding-inline: 13vw;
+  height: auto;
+}
+
+#right-login h1{
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+}
+
+#right-login h2{
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin-bottom: 3vh;
+}
+
+#right-login input{
+  border: none;
+  border-radius: 20px;
+  height: 10vh;
+  color: rgb(240, 240, 240);
+  width: 40vw;
+  outline: none;
+  padding-left: 3vw;
+  background-color: rgb(158, 158, 157);
+}
+#right-login input::placeholder{
+  color: rgb(240, 240, 240);
+}
+
+#right-login .button{
+  width: 17vw;
+  height: 10vh;
+  margin-top: 5vh;
+  border-radius: 50px;
+  border: none;
+  background-color: rgb(20, 20, 20);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-bottom: 5vh;
+  transition: 0.5s;
+}
+
+#right-login .button:hover{
+  transform: scale(1.03);
+  transition: 1s;
+  cursor: pointer;
+  background-color: rgb(34, 33, 33);
+}
