@@ -1,0 +1,13 @@
+package dilanches.pucminas.br.controllers;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class CadastroController {
+
+    @RequestMapping("/cadastro")
+    public String register(){
+        return "cadastro";
+    }
+}
