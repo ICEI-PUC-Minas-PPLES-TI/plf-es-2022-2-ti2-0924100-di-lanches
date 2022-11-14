@@ -17,7 +17,7 @@
 
 Professores:
 
-**Cristiano Geraldo Teixeira Silva**
+**Cristiano Neves Rodrigues**
 
 **Felipe Augusto Lima Reis**
 
@@ -83,14 +83,23 @@ facilidade e agilidade no processo.
 
 ## 2. Participantes do processo
 
-O participante do processo pode ser definido como restaurantes fast-foods. Empresas que possuem uma demanda alta de pedidos 
-ao mesmo tempo e necessitam que os pedidos cheguem ao setor de maneira clara. Abordando as seguintes areas dos estabelecimentos no decorrer do processo serao introduzidos os seguintes participantes como o atendente, o cozinheiro, o entregador, o cobrador e tambem sendo inserido o cliente como um dos participantes, tambem sendo colocado tanto quanto o dono e tambem o gerente ou entao o financeirto, podendo ser usado para ver a evolução do seu estabelecimento sendo assim um processo que envolve todos os colaboradores desse estabelecimento
+- Cliente: O cliente sendo o Stakeholder primário, ele é a peça fundamental para a criação de todo o nosso processo. Sem o cliente, não haverá alternativas para dar andamento nos pedidos. Ele sendo responsável por fazer os pedidos, selecionando o que irá consumir e a forma de pagamento desejada.
+
+- Atendente: O atendente terá o papel de anotar todo o pedido do cliente de forma que não gere pedidos errado a cozinha.
+
+- Cozinheiro/Cozinha: A cozinha irá atuar na linha de frente da preparação do pedido. É importante que a cozinha e o atendente estejam alinhados para não gerar pedidos errados para o cliente.
+
+- Motoboy: Com a evolução dos pedidos por aplicativos, o motoboy se tornou uma peça importante para quem quer apenas consumir em seu lar. Ele é responsável por garantir uma entrega eficiente, para que a refeição chegue em bom estado e no menor tempo possível.
+
+<p align="center">
+  <img src="https://i.imgur.com/2nMs4oU.jpg" />
+</p>
 
 ## 3. Modelagem do processo de negócio
 
 ## 3.1. Análise da situação atual
 
-Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos. Muitas vezes ocorre de o cliente realizar um pedido de algo que o restaurante está em falta, e só depois o atendente dar conta disso, causando conflitos.
+Hoje em dia, muitos atendentes de fast-foods utilizam de formas ineficientes no controle de pedidos, o que pode trazer muitos problemas futuros para o estabelecimento. Ao anotar um pedido incorreto, por exemplo, tem como consequência, a montagem e entrega de lanches errados para os clientes. Além disso, se muitos pedidos são feitos ao mesmo tempo e são passados para a cozinha de maneira desorganizada, torna-se mais difícil o entendimento de qual pedido é o certo para um cliente específico, tornando o processo de fazer os lanches mais lento, gerando atrasos nas entregas e novamente pedidos sendo entregues incorretamente. Além do mais, sem um sistema de software adequado, e bem organizado, não conseguimos saber quais ingredientes estão no estoque, podendo causar problemas na organização e montagem dos pedidos, tendo como resultado os mesmos problemas citados acima. 
 
 ## 3.2. Descrição Geral da proposta
 
@@ -100,17 +109,54 @@ A hamburgueria fictícia Di'Lanches recentemente obteve um grande aumento em seu
 
 ### 3.3.1 Processo 1 – PROCESSO DE CRIAR PEDIDO
 
-O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera. 
+O processo de criação de pedido retrata o sistema de atendimento de um cliente desde a seleção do lanche, forma de pagamento, onde desejar comer(no local ou para viagem) e por fim a geração de um código de espera.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+<p align="center">
+  <img src="https://i.imgur.com/LL1J1eS.png"/>
+</p>
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
+### 3.3.2 Processo 2 – CONTROLE DE ESTOQUE
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+O processo de controle de estoque é um sistema que irá fornecer a situação atual da quantidade de ingredientes armazenados no estabelecimento e possibilitar inserir e retirar quantias quando uma alteração do estoque for realizada pelo proprietário.
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+<p align="center">
+  <img src="https://i.imgur.com/9KwK0cr.png"/>
+</p>
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+### 3.3.3 Processo 3 – PROCESSO DE RECEBER O LANCHE (COZINHA)
+
+A cozinha recebe o código que foi gerado no processo 1, a cozinha irá verificar se tem todos os ingredientes necessários para o preparo, se não tiver, o lanche será 
+cancelado e será informado ao cliente a indisponibilidade. Se o cliente desejar realizar outro lanche, assim será feito e voltaremos ao processo 1. Se houver   
+disponibilidade de ingredientes, o lanche será preparado.
+
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/cozinha_processo.png"/>
+</p>
+
+### 3.3.4 Processo 4 – PROCESSO DE CRIAÇÃO DE LANCHE
+
+Nesse processo de criação de lanche sera obrigatorio a entrada de um nome, preço, uma imagem,itens do lanche, ordem e o tipo desse lanche fornecido pelo gerente ou dono do estabelecimento. Nele tambem poderar ser ativado e desativado podendo ou não aparecer no cardapio para venda assim mostrando para o atendente ou o cliente que esse lanche não esta disponivel. Ao final de tudo isso deverar ser gerado um cardapio virtual que sera mostrado para ambos participantes dos processos 
+(Cliente ou atendente).
+
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/processo_cardapio.png"/>
+</p>
+
+### 3.3.5 Processo 5 – PROCESSO DE CHAMAR O MOTOBOY E ENTREGA
+
+Após o cliente realizar o pedido e o código ser gerado, o Motoboy do restaurante é acionado e recebe as informações sobre o endereço da entrega, após a entrega ser realizada o Motoboy volta para o restaurante e informa que a entrega foi realizada, depois disso é atualizado no sistema com o Status "Pedido Entregue".
+
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Processo%205.png?raw=true"/>
+</p>
+
+### 3.3.6 Processo 6 – PROCESSO DE CANCELAMENTO DO PEDIDO
+
+Após o pedido ser gerado, existe a possibilidade do cancelamento. O software da Di'Lanches conta com uma opção de "Cancelamento do Pedido", em que o cliente solicita esse cancelamento após clicar nessa opção, lá ele têm um espaço para justificar seu cancelamento, onde é analisada essa justificativa com um possível estorno do dinheiro, depois disso é atualizado no sistema com o Status "Pedido Cancelado".
+
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Processo%206.png"
+</p>
 
 ## 4. Projeto da Solução
 
@@ -118,38 +164,170 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – Criação de pedidos
 
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
-
-**Nome da atividade 2**
+**Mostrar Cardapio**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Nome | Text |   |   |
+| Imagem | imagem |   | SemFoto.png |
+| Descricao | Text |   |   |
+| Valor | Text | formatado em real | 0 |
+
+**Editar lanches**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Text |   | Dados já existentes |
+| Imagem | Imagem |   | Imagem já existente |
+| Quantidade de acrecimo | Number | Não pode ser negativo | Dados já existentes |
+| Adicionar item | Button |   | Dados já existentes |
+
+**Informar Endereço**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Rua | Text | Texto |  |
+| Bairro | Text | Texto |  |
+| Cidade | Text | Texto |  |
+| Estado | Text | Texto apenas 2 caracteres |  |
+| Numero | Number | Numero |  |
+| CEP | Text | Numero contendo 8 caracteres | |
+
+**Informar Contato**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Text |   |   |
+| Telefone | Text |   | (00) 00000-0000 |
+
+
+**Informar forma de pagamento**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Tipo | Radio Button |   |   |
+| Valor total | Number | Formatar em real | 0 |
+| troco | Number | Formatar em real | 0 |
+
+
+#### Processo 2 – CONTROLE DE ESTOQUE
+
+**Mostrar Produto**
+
+| **Campo** | **Tipo** | **Restrições** |
+| --- | --- | --- |
+| Nome | Text | Apenas vizualisação |
+|  Imagem  |  imagem  | Apenas vizualisação |
+| Descricao | Caixa de texto | Apenas vizualisação |
+| Valor | Número | Apenas vizualisação | 
+
+
+**Editar Produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Text |   |   |
+|  Imagem  |  imagem  |   |  SemFoto.png |
+| Descricao | Caixa de texto |   |   |
+| Valor | Número | Real |   |
+| Atualizar item | Button |   |   |
+
+
+**Adicionar Produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Text |  Tamanho |   |
+|  Imagem  |  imagem  |   |  SemFoto.png |
+| Descricao | Caixa de texto |   |   |
+| Valor | Número | Real |   |
+| Adcionar item | Button |   |   |
+
+
+#### Processo 3 – PROCESSO DE RECEBER O PEDIDO (COZINHA)
+
+**Receber pedido do atendente**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Código do Pedido | Número inteiro | Não pode ser nulo  |   |
+| Nome do Cliente | Tipo Texto | Não pode ser nulo  |   |
+| Pedido | Tipo Texto | Não pode ser nulo  |   |
 |    |    |     |
 
-#### Processo 2 – NOME DO PROCESSO
-
-**Nome da atividade 1**
+**Informar falta de ingredientes**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Comentário | Tipo Texto | Não pode ser nulo | "Desculpe, estamos sem o ingrediente {X}, por favor refaça o pedido!" |
 |    |    |     |
 
-**Nome da atividade 2**
+
+**Preparar pedido**
+
+**Preparar pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Pedido preparado | Botão |   | "O seu pedido está pronto para a retirada." |
+|    |    |     |
+
+#### Processo 4 – PROCESSO DE CRIAÇÃO DE CARDÁPIO/PRODUTO
+
+**Atividade Criar produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Caixa de texto | Mínimo de 2 caractéres |  |
+| Preço | Caixa numérica | Maior que 0 |  |
+| Imagem | Arquivo imagem | Arquivo tipo jpeg | Sem imagem  |
+| Ingredientes do produto | Caixa de texto | Mínimo um produto vínculado |  |
+| Tipo do produto | Caixa de texto |  | Nenhum tipo |
+| Produto ativo | Caixa boolean | Ativo ou Inativo | inativo |
+
+#### Processo 5 –  PROCESSO DE CHAMAR O MOTOBOY E ENTREGA 
+
+**Cominicação das infomações sobre a entrega**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome do cliente | Text | Visualização |   |
+| Endereço de entrega | Text | Visualização |   |
+| Código do pedido | Number | Visualização |   |
+| Telefone | Tel | Visualização |   |
+|    |    |     |
+
+**Atualizar Status do Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Atualizar Status | Botão de Seleção |   |   |
+|    |    |     |
+
+#### Processo 6 – NOME DO PROCESSO
+
+**Solicitar Cancelamento do Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Solicitar Cancelamento do Pedido | Botão |   |   |
+| Código do Pedido | Number | Apenas números inteiros |   |
+|    |    |     |
+
+**Justificar Cancelamento do Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Justificativa | Text | Não pode ser nulo |  |
+|    |    |     |
+
+**Cancelar Pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Cancelar Pedido | Botão |   |   |
 |    |    |     |
 
 ### 4.2. Tecnologias
@@ -158,9 +336,9 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 ## 5. Modelo de dados
 
-Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Entidade-Relacionamento (DER) que contemple todos conceitos e atributos apresentados item anterior. 
+Aqui esta apresentado o modelo de banco de dados logico mostrando como será armazenado todos dados para o funcionamento desse sistema.
 
-![Diagrama de Entidade Relacionamento de Exemplo](imagens/er_diagram.png "Diagrama de Entidade Relacionamento de Exemplo")
+![Diagrama de Entidade Relacionamento de Di'lanches](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/banco_logico.png "Diagrama de Entidade Relacionamento de Di'lanches")
 
 ## 6. Indicadores de desempenho
 
