@@ -3,120 +3,231 @@
 
 * {
   margin: 0;
+  padding: 0;
 }
 
-body{ 
+.row{ 
   display: flex;
   flex-direction: row;
 }
 
 #logo{
   width: 15vw;
+
   margin-bottom: 5vh;
 }
 
-#left-login {
+.left-login {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-inline: 6vw;
-  gap: 3vh;
-  
-  height: 100vh;
+  gap: 2.55vh; 
 
   background-color: rgb(0, 0, 0);
+  padding-bottom: 15vh;
 }
 
-#left-login h1{
+.left-login h1{
   color: white;
   font-family: 'Poppins', sans-serif;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
-#left-login h2{
+.left-login h2{
   color: white;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-family: 'Montserrat';
   font-weight: 500;
 }
 
-#left-login .button {
-  width: 17vw;
-  height: 10vh;
+.left-login .button {
+  width: 22rem;
+  height: 7rem;
   margin-top: 8vh;
+
   border-radius: 50px;
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(20, 20, 20);
+  
   font-family: 'Poppins', sans-serif;
   color: white;
-  margin-bottom: 15vh;
+
   transition: 0.5s;
 }
 
-#left-login .button:hover{
+.left-login .button:hover{
   transform: scale(1.03);
   transition: 1s;
   cursor: pointer;
   background-color: rgb(34, 33, 33);
 }
 
-#right-login{
+.right-login{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3vh;
+
   background-color: rgb(233, 233, 233);
+
   width: auto;
-  padding-inline: 10vw;
-  height: auto;
 }
 
-#right-login h1{
+.right-login h1{
   color: rgb(0, 0, 0);
   font-family: 'Poppins', sans-serif;
-  font-size: 2.2rem;
+  font-size: 3rem;
 }
 
-#right-login h2{
+.right-login h2{
   color: rgb(0, 0, 0);
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   font-family: 'Montserrat';
   font-weight: 500;
-  margin-bottom: 3vh;
+  margin-bottom: 5vh;
 }
 
-#right-login input{
+.right-login input{
+  width: 40vw;
+  height: 7rem;
+  padding-left: 3vw;
+  margin-bottom: 3vh;
+
   border: none;
   border-radius: 20px;
-  height: 10vh;
-  color: rgb(240, 240, 240);
-  width: 40vw;
   outline: none;
-  padding-left: 3vw;
+
+  color: rgb(240, 240, 240);
+
   background-color: rgb(158, 158, 157);
 }
-#right-login input::placeholder{
+
+.right-login input::placeholder{
   color: rgb(240, 240, 240);
 }
 
-#right-login .button{
-  width: 17vw;
-  height: 10vh;
-  margin-top: 5vh;
+#nav{ 
+  display: none;
+}
+
+.right-login .button{
+  width: 22rem;
+  height: 7rem;
+
   border-radius: 50px;
   border: none;
+  
   background-color: rgb(20, 20, 20);
+
   font-family: 'Poppins', sans-serif;
   color: white;
-  margin-bottom: 5vh;
+
   transition: 0.5s;
 }
 
-#right-login .button:hover{
+.right-login .button:hover{
   transform: scale(1.03);
   transition: 1s;
   cursor: pointer;
   background-color: rgb(34, 33, 33);
+}
+
+@media only screen and (max-width: 950px){
+
+  #logo{
+    width: 30vw;
+  
+    margin-block: 5vh;
+  }
+
+  .left-login{
+    gap: 1.5vh; 
+    padding-bottom: 15vh;
+  }
+  .left-login h1{
+    font-size: 4.5rem;
+  }
+
+  .left-login h2{
+    font-size: 2.5rem;
+  }
+
+  .left-login .button {
+    width: 50vw;
+    height: 7rem;
+    margin-top: 8vh;
+  }
+
+  .row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-login{
+    width: 100%;
+    padding: 17vh;
+  }
+  .right-login h1{
+    font-size: 4.5rem;
+  }
+  .right-login h2{
+    font-size: 2.5rem;
+    margin-bottom: 5vh;
+  }
+  .right-login input{
+    width: 70vw;
+    height: 7rem;
+    padding-left: 3vw;
+    margin-bottom: 3vh;
+  }
+
+  .right-login .button{
+    width: 50vw;
+    height: 7rem;
+    margin-bottom: 10vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .left-login{
+    display: none;
+  }
+
+  .row{
+    height: 100%;
+  }
+  .right-login{
+    width: 100%;
+    padding: 17vh;
+  }
+  .right-login h1{
+    font-size: 4.5rem;
+  }
+  .right-login h2{
+    font-size: 2.5rem;
+    margin-bottom: 5vh;
+  }
+  .right-login input{
+    width: 80vw;
+    height: 7rem;
+    padding-left: 3vw;
+    margin-bottom: 3vh;
+  }
+
+  #nav{ 
+    display: flex;
+    margin-bottom: 3vh;
+  }
+
+  #nav a{
+    text-decoration: none;
+    color:#ff8b00;
+  }
+
+  .right-login .button{
+    width: 70vw;
+    height: 7rem;
+    margin-bottom: 10vh;
+  }
 }
