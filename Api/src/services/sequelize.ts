@@ -122,8 +122,13 @@ export const DBEntities = {
             type: DataTypes.BOOLEAN,
             allowNull: false,
             defaultValue: false
-        }
+        },
+        valor: {
+            type: DataTypes.DOUBLE(9.2),
+            allowNull: false
+        },
     }),
+
 
     Lanches: sequelize.define<Instance.Lanches>('Lanches', {
         ...baseAttributes,
@@ -166,6 +171,53 @@ export const DBEntities = {
             type: DataTypes.DOUBLE(9.2)
         },
     }),
+    Pedido_has_colaboradores: sequelize.define<Instance.Pedido_has_colaboradores>('Pedido_has_colaboradores', {
+        
+    }),
+    Pedido_has_lanches: sequelize.define<Instance.Pedido_has_lanches>('Pedido_has_lanches', {
+        ...baseAttributes
+    }),
 
+    ingredientes_lanche_pedido: sequelize.define<Instance.ingredientes_lanche_pedido>('ingredientes_lanche_pedido', {
+        quantidade: {
+            type: DataTypes.INTEGER,
+        }
+    }),
 }
 //#endregion
+
+//tabela endereco
+DBEntities.Endereco.belongsTo(DBEntities.Cliente, {foreignKey: {name: 'cliente_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Cliente.hasMany(DBEntities.Endereco, {foreignKey: {name: 'cliente_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+// tabela pedido
+DBEntities.Pedido.belongsTo(DBEntities.Status, {foreignKey: {name: 'status_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Status.hasMany(DBEntities.Pedido, {foreignKey: {name: 'status_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+DBEntities.Pedido.belongsTo(DBEntities.Cancelamento, {foreignKey: {name: 'cancelamento_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Cancelamento.hasMany(DBEntities.Pedido, {foreignKey: {name: 'cancelamento_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+DBEntities.Pedido.belongsTo(DBEntities.Endereco, {foreignKey: {name: 'endereco_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Endereco.hasMany(DBEntities.Pedido, {foreignKey: {name: 'endereco_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+DBEntities.Pedido.belongsToMany(DBEntities.Colaboradores, {through: DBEntities.Pedido_has_colaboradores, foreignKey: {name: 'pedido_Id', allowNull: false}})
+DBEntities.Colaboradores.belongsToMany(DBEntities.Pedido, {through: DBEntities.Pedido_has_colaboradores, foreignKey: {name: 'colaboradores_id', allowNull: false}})
+
+DBEntities.Pedido.belongsToMany(DBEntities.Lanches, {through: DBEntities.Pedido_has_lanches, foreignKey: {name: 'pedido_Id', allowNull: false}})
+DBEntities.Lanches.belongsToMany(DBEntities.Pedido, {through: DBEntities.Pedido_has_lanches, foreignKey: {name: 'lanches_id', allowNull: false}})
+
+// tabela colaboradores
+DBEntities.Colaboradores.belongsTo(DBEntities.Departamento, {foreignKey: {name: 'departamento_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Departamento.hasMany(DBEntities.Colaboradores, {foreignKey: {name: 'departamento_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+// tabela ingredientes lanche
+
+DBEntities.Lanches.belongsTo(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'lanches_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Ingrediente_lanches.hasMany(DBEntities.Lanches, {foreignKey: {name: 'lanches_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+DBEntities.Ingrediente.belongsTo(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Ingrediente.hasMany(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+
+// tabela ingredientes_lanche_pedido
+DBEntities.Pedido_has_lanches.belongsToMany(DBEntities.Ingrediente_lanches, {through: DBEntities.ingredientes_lanche_pedido, foreignKey: {name: 'pedido_has_lanches_Id', allowNull: false}})
+DBEntities.Ingrediente_lanches.belongsToMany(DBEntities.Pedido_has_lanches, {through: DBEntities.ingredientes_lanche_pedido, foreignKey: {name: 'ingrediente_lanches_id', allowNull: false}})

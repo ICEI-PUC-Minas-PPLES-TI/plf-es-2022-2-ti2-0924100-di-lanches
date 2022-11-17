@@ -29,6 +29,7 @@ export namespace BaseTypes {
     export type Pedido = BaseType & {
         data_entrega: DataTransfer
         delivery: boolean
+        valor: number
         status_id?: number
         cliente_id?: number
         endereco_id?: number
@@ -68,6 +69,20 @@ export namespace BaseTypes {
         departamento_id?: number
     }
 
+    export type Pedido_has_colaboradores = {
+        pedido_id?: number
+        colaboradores_id?: number
+    }
+    
+    export type Pedido_has_lanches = BaseType & {
+        pedido_id?: number
+        lanche_id?: number
+    }
+    export type ingredientes_lanche_pedido =  {
+        pedido_has_lanches?: number
+        ingredientes_has_lanches?: number
+        quantidade: number
+    }
     export type Departamento = BaseType & {
         nome: string
     }
@@ -85,4 +100,7 @@ export namespace Instance{
     export type Colaboradores = Model<BaseTypes.Colaboradores> & BaseTypes.Colaboradores
     export type Departamento = Model<BaseTypes.Departamento> & BaseTypes.Departamento
     export type Pedido = Model<BaseTypes.Pedido> & BaseTypes.Pedido
+    export type Pedido_has_colaboradores = Model<BaseTypes.Pedido_has_colaboradores> & BaseTypes.Pedido_has_colaboradores
+    export type Pedido_has_lanches = Model<BaseTypes.Pedido_has_lanches> & BaseTypes.Pedido_has_lanches
+    export type ingredientes_lanche_pedido = Model<BaseTypes.ingredientes_lanche_pedido> & BaseTypes.ingredientes_lanche_pedido
 }
