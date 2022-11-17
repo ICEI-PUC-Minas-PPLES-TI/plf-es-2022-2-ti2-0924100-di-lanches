@@ -1,0 +1,53 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Wolffox Api Docs",
+    "description": "Essa api tem a base de ser um gerenciador de eventos",
+    "contact": {
+      "name": "Suporte",
+      "email": "suporte@wolffox.com.br"
+    },
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://Wolffox.com.br/api/"
+    }
+  ],
+  "paths": {
+    "/teste/": {
+      "get": {
+        "tags": [
+          "teste"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Erro Interno do Servidor"
+          }
+        }
+      }
+    },
+    "/teste/ola": {
+      "get": {
+        "tags": [
+          "teste"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "500": {
+            "description": "Erro Interno do Servidor"
+          }
+        }
+      }
+    }
+  }
+}
