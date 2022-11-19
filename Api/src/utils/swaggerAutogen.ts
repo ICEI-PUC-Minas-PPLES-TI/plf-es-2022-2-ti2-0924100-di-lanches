@@ -17,7 +17,7 @@ const doc = {
     description: "Essa api tem a base de ser um gerenciador de lanchonetes",
   },
   host: 'localhost:5000/api',
-  schemes: ['https'],
+  schemes: ['http'],
 };
 
 const outputFile = './swagger.json';
