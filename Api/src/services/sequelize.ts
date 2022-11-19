@@ -77,6 +77,10 @@ export const DBEntities = {
         motivo: {
             type: DataTypes.TEXT,
             allowNull: false
+        },
+        valido: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false
         }
     }),
 
@@ -144,6 +148,10 @@ export const DBEntities = {
         nome: {
             type: DataTypes.STRING(80)
         },
+        ativo: {
+            type: DataTypes.BOOLEAN,
+            defaultValue: false
+        }
     }),
 
     Ingrediente_lanches: sequelize.define<Instance.Ingrediente_lanches>('Ingrediente_lanches', {
@@ -212,11 +220,11 @@ DBEntities.Departamento.hasMany(DBEntities.Colaboradores, {foreignKey: {name: 'd
 
 // tabela ingredientes lanche
 
-DBEntities.Lanches.belongsTo(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'lanches_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
-DBEntities.Ingrediente_lanches.hasMany(DBEntities.Lanches, {foreignKey: {name: 'lanches_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Ingrediente_lanches.belongsTo(DBEntities.Lanches, {foreignKey: {name: 'lanche_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Lanches.hasMany(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'lanche_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
 
-DBEntities.Ingrediente.belongsTo(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
-DBEntities.Ingrediente_lanches.hasMany(DBEntities.Ingrediente, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Ingrediente_lanches.belongsTo(DBEntities.Ingrediente, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Ingrediente.hasMany(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
 
 // tabela ingredientes_lanche_pedido
 DBEntities.Pedido_has_lanches.belongsToMany(DBEntities.Ingrediente_lanches, {through: DBEntities.ingredientes_lanche_pedido, foreignKey: {name: 'pedido_has_lanches_Id', allowNull: false}})

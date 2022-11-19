@@ -8,25 +8,30 @@ import { BaseTypes } from "../../models";
 export const lancheRouter = Router()
 
 lancheRouter.get("/",async (req, res, next)=>{
+     // #swagger.tags = ['Lanche']
+
     await DBEntities.Lanches.findAll({
         include: [
-            { model: DBEntities.Ingrediente_lanches, include:
-                [{ model: DBEntities.Ingrediente }]
-            },            
-        ]
+            { model: DBEntities.Ingrediente_lanches, include:[ { model: DBEntities.Ingrediente }]},
+        ],        
+        where: {'ativo': true}
     })
     .then(result => res.status(200).json(result))
     .catch((e: any) => next(new HttpException(500, "Erro inesperado tente Novamente mais tarde")))
 })
-lancheRouter.post("/criar", async (req, res, next) =>{
-    const { foto, descricao, valor, nome, Ingrediente_lanches } = req.body
-    const lanche: BaseTypes.Lanches = { foto, descricao, valor, nome, Ingrediente_lanches }
+
+lancheRouter.post("/", async (req, res, next) =>{
+     // #swagger.tags = ['Lanche']
+
+    const { foto, descricao, valor, nome, ativo, Ingrediente_lanches } = req.body
+    const lanche: BaseTypes.Lanches = { foto, descricao, valor, nome, ativo, Ingrediente_lanches }
 
     const schemaLanche = yup.object().shape({
         foto: yup.string(),
         descricao: yup.string(),
         valor: yup.number(),
         nome: yup.string(),
+        ativo: yup.boolean(),
         Ingrediente_lanches: yup.array().of(
             yup.object().shape({
                 lanche_id: yup.number(),
@@ -43,8 +48,9 @@ lancheRouter.post("/criar", async (req, res, next) =>{
         DBEntities.Lanches.create(value)
         .then( resultLanche => {
             value.Ingrediente_lanches.map(x => x.lanche_id = resultLanche.id)
-            DBEntities.Ingrediente_lanches.create(value.Ingrediente_lanches)
+            DBEntities.Ingrediente_lanches.bulkCreate(value.Ingrediente_lanches)
             .then(result => res.status(201).json(resultLanche.id))
+            .catch((e) => next(new HttpException(500, 'Erro ao criar Ingredientes, por favor, tente novamente mais tarde.'+ e)))
         })
         .catch(() => next(new HttpException(500, 'Erro ao criar, por favor, tente novamente mais tarde.')))
     })

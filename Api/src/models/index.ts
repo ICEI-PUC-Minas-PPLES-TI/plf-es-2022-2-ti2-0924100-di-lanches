@@ -26,6 +26,7 @@ export namespace BaseTypes {
         descricao: string
         valor: number
         nome: string
+        ativo?: boolean
         Ingrediente_lanches?: Ingrediente_lanches[]
     }
     export type Pedido = BaseType & {
@@ -49,14 +50,15 @@ export namespace BaseTypes {
     }
 
     export type Cliente = BaseType & {
-        nome: string
-        telefone: string
+        nome?: string
+        telefone?: string
         email: string
         senha: string
     }
 
     export type Cancelamento = BaseType & {
         motivo: string
+        valido?: boolean
     }
 
     

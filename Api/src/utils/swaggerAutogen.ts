@@ -13,14 +13,10 @@ const options = {
 
 const doc = {
   info: {
-    title: 'Wolffox Api Docs',
-    description: "Essa api tem a base de ser um gerenciador de eventos",
-    contact: {
-        name: "Suporte",
-        email: "suporte@wolffox.com.br"
-    },
+    title: 'Di lanches',
+    description: "Essa api tem a base de ser um gerenciador de lanchonetes",
   },
-  host: 'Wolffox.com.br/api',
+  host: 'localhost:5000/api',
   schemes: ['https'],
 };
 
