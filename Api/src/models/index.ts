@@ -18,6 +18,7 @@ export namespace BaseTypes {
         valor?: number
         acrescimos: boolean
         quantidade: number
+        Ingrediente?: Ingrediente
     }
 
     export type Lanches = BaseType & {
@@ -25,6 +26,7 @@ export namespace BaseTypes {
         descricao: string
         valor: number
         nome: string
+        Ingrediente_lanches?: Ingrediente_lanches[]
     }
     export type Pedido = BaseType & {
         data_entrega: DataTransfer

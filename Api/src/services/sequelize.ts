@@ -124,7 +124,7 @@ export const DBEntities = {
             defaultValue: false
         },
         valor: {
-            type: DataTypes.DOUBLE(9.2),
+            type: DataTypes.DOUBLE,
             allowNull: false
         },
     }),
@@ -139,7 +139,7 @@ export const DBEntities = {
             type: DataTypes.TEXT,
         },
         valor: {
-            type: DataTypes.DOUBLE(9.2)
+            type: DataTypes.DOUBLE
         },
         nome: {
             type: DataTypes.STRING(80)
@@ -149,13 +149,13 @@ export const DBEntities = {
     Ingrediente_lanches: sequelize.define<Instance.Ingrediente_lanches>('Ingrediente_lanches', {
         ...baseAttributes,
         valor:{
-            type: DataTypes.DOUBLE(9.2)
+            type: DataTypes.DOUBLE
         },
         acrescimos: {
             type: DataTypes.BOOLEAN
         },
         quantidade: {
-            type: DataTypes.INTEGER.UNSIGNED
+            type: DataTypes.INTEGER
         }
     }),
 
@@ -165,10 +165,10 @@ export const DBEntities = {
             type: DataTypes.STRING(50)
         },
         quantidade: {
-            type: DataTypes.INTEGER.UNSIGNED
+            type: DataTypes.INTEGER
         },
         valor_unidade: {
-            type: DataTypes.DOUBLE(9.2)
+            type: DataTypes.DOUBLE
         },
     }),
     Pedido_has_colaboradores: sequelize.define<Instance.Pedido_has_colaboradores>('Pedido_has_colaboradores', {
@@ -216,7 +216,7 @@ DBEntities.Lanches.belongsTo(DBEntities.Ingrediente_lanches, {foreignKey: {name:
 DBEntities.Ingrediente_lanches.hasMany(DBEntities.Lanches, {foreignKey: {name: 'lanches_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
 
 DBEntities.Ingrediente.belongsTo(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
-DBEntities.Ingrediente.hasMany(DBEntities.Ingrediente_lanches, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
+DBEntities.Ingrediente_lanches.hasMany(DBEntities.Ingrediente, {foreignKey: {name: 'ingredientes_id'}, keyType: DataTypes.INTEGER.UNSIGNED})
 
 // tabela ingredientes_lanche_pedido
 DBEntities.Pedido_has_lanches.belongsToMany(DBEntities.Ingrediente_lanches, {through: DBEntities.ingredientes_lanche_pedido, foreignKey: {name: 'pedido_has_lanches_Id', allowNull: false}})
