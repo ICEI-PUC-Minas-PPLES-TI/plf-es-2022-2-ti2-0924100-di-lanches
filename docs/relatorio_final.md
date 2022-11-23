@@ -346,7 +346,7 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Mede a taxa de pedidos entregues | Pedidos Gerados ÷ Pedidos Entregues | Tabela pedido | Cliente |
+| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Medir a taxa de pedidos entregues | Pedidos Gerados ÷ Pedidos Entregues | Tabela pedido | Cliente |
 | Taxa de Cancelamentos | Melhorar a prestação de serviço medindo a porcentagem e o motivo dos cancelamentos | Mede a taxa de pedidos cancelados | Pedidos Gerados ÷ Cancelamentos | Tabela cancelamentos | Cliente |
 | Taxa de sucesso em Vendas | Manter controle sobre os materiais que estão sendo entregues | Mede a taxa de vendas realizadas com sucesso | Pedidos Gerados ÷ Pedidos Fechados com Sucesso | Tabela pedido | Processo Interno |
 | Controle de Estoque | Manter controle sobre os ingredientes que estão disponíveis no estoque | Mede a quantidade de ingredientes disponíveis no estoque |  Ingrediente Necessário ÷ Total do Ingrediente Disponível | Tabela ingredientes | Processo Interno |
