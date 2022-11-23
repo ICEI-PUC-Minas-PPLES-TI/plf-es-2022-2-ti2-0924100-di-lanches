@@ -1,5 +1,4 @@
 import express from 'express'
-import * as cors from 'cors'
 import { config } from './config'
 import { json } from 'body-parser'
 import { setLocale } from 'yup'
@@ -8,7 +7,7 @@ import { routers } from './routes'
 import { sequelize } from './services/sequelize'
 import swaggerUi from "swagger-ui-express"
 import swaggerDocument from "../swagger.json"
-
+const cors = require('cors')
 
 const startServer = async () => {
     await sequelize
@@ -27,7 +26,7 @@ const startServer = async () => {
 
     const app = express()
 
-    //app.use(cors({allowedHeaders: '*', exposedHeaders: '*'}))
+    app.use(cors({allowedHeaders: '*', exposedHeaders: '*'}))
     
     app.use(json())
     app.use(express.urlencoded({extended: true}))
