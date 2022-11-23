@@ -346,11 +346,11 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Mede % de pedidos entregues |   | Tabela pedido | Cliente |
-| Taxa de Cancelamentos | Melhorar a prestação de serviço medindo a porcentagem e o motivo dos cancelamentos | Mede % de pedidos cancelados |   | Tabela cancelamentos | Cliente |
-| Taxa de sucesso em Vendas | Manter controle sobre os materiais que estão sendo entregues | Mede % de vendas realizadas com sucesso |   | Tabela pedido | Processo Interno |
-| Controle de Estoque | Manter controle sobre os ingredientes que estão disponíveis no estoque | Mede % de ingredientes disponíveis no estoque |   | Tabela ingredientes | Processo Interno |
-| Valor do Ticket Medio | Controle financeiro sobre o faturamento de cada venda | Mede % de faturamento em cada venda |   | Tabela pedido e Tabela cliente | Processo Interno |
+| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Mede a taxa de pedidos entregues | Pedidos Gerados ÷ Pedidos Entregues | Tabela pedido | Cliente |
+| Taxa de Cancelamentos | Melhorar a prestação de serviço medindo a porcentagem e o motivo dos cancelamentos | Mede a taxa de pedidos cancelados | Pedidos Gerados ÷ Cancelamentos | Tabela cancelamentos | Cliente |
+| Taxa de sucesso em Vendas | Manter controle sobre os materiais que estão sendo entregues | Mede a taxa de vendas realizadas com sucesso | Pedidos Gerados ÷ Pedidos Fechados com Sucesso | Tabela pedido | Processo Interno |
+| Controle de Estoque | Manter controle sobre os ingredientes que estão disponíveis no estoque | Mede a quantidade de ingredientes disponíveis no estoque |  Ingrediente Necessário ÷ Total do Ingrediente Disponível | Tabela ingredientes | Processo Interno |
+| Valor do Ticket Medio | Controle financeiro sobre o faturamento de cada venda | Mede o valor de faturamento em cada venda | Faturamento ÷ Quantidade de Operações de Venda | Tabela pedido | Processo Interno |
 
 ## 7.Sistema desenvolvido
 
