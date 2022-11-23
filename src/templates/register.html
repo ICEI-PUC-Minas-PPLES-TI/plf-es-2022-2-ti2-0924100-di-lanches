@@ -20,10 +20,12 @@
       <h1>Crie sua conta</h1>
       <h2>Preencha seus dados</h2>
       <input  id="nome" type="text" name="nome" placeholder="Digite seu nome completo" maxlength="47" autocomplete="off"/>
+      <input  id="telefone" type="text" name="telefone" placeholder="Digite seu telefone" maxlength="47" autocomplete="off"/>
       <input  id="email" type="text" name="email" placeholder="Digite seu endereço de email" maxlength="47" autocomplete="off"/>
       <input  id="senha" type="password" name="senha" placeholder="Digite sua senha" maxlength="47" autocomplete="off"/>
       <p id="nav">Já possui conta?&nbsp<a href="login.html">Faça login</a></p>
-      <button class="button">CADASTRAR</button>
+      <button class="button" onclick="cadastroUsuario()">CADASTRAR</button>
+      <script src ="javascript/apiCadastro.js"></script>
     </div>
   </div>
 </body>
