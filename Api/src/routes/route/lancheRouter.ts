@@ -12,17 +12,16 @@ lancheRouter.get("/",async (req, res, next)=>{
 
     await DBEntities.Lanches.findAll({
         include: [
-            { model: DBEntities.Ingrediente_lanches, include:[ { model: DBEntities.Ingrediente }]},
+            { model: DBEntities.Ingrediente_lanches, include: [ { model: DBEntities.Ingrediente }] },
         ],        
         where: {'ativo': true}
     })
     .then(result => res.status(200).json(result))
-    .catch((e: any) => next(new HttpException(500, "Erro inesperado tente Novamente mais tarde")))
+    .catch((e) => next(new HttpException(500, "Erro inesperado, tente novamente mais tarde.")))
 })
 
 lancheRouter.post("/", async (req, res, next) =>{
      // #swagger.tags = ['Lanche']
-
     const { foto, descricao, valor, nome, ativo, Ingrediente_lanches } = req.body
     const lanche: BaseTypes.Lanches = { foto, descricao, valor, nome, ativo, Ingrediente_lanches }
 
@@ -50,7 +49,7 @@ lancheRouter.post("/", async (req, res, next) =>{
             value.Ingrediente_lanches.map(x => x.lanche_id = resultLanche.id)
             DBEntities.Ingrediente_lanches.bulkCreate(value.Ingrediente_lanches)
             .then(result => res.status(201).json(resultLanche.id))
-            .catch((e) => next(new HttpException(500, 'Erro ao criar Ingredientes, por favor, tente novamente mais tarde.'+ e)))
+            .catch((e) => next(new HttpException(500, 'Erro ao criar ingredientes, por favor, tente novamente mais tarde.'+ e)))
         })
         .catch(() => next(new HttpException(500, 'Erro ao criar, por favor, tente novamente mais tarde.')))
     })
