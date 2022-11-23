@@ -7,7 +7,7 @@ import { type } from "os"
 export const sequelize = new Sequelize({
     ...config.database,
     dialect: 'postgres',
-    // logging: false,
+    logging: false,
     define: {
         freezeTableName: true,
         createdAt: 'dataCriacao',

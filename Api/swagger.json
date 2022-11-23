@@ -79,6 +79,20 @@
         }
       }
     },
+    "/cliente/": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "description": "",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/pedido/cancelar/{pedido_id}": {
       "post": {
         "tags": [
