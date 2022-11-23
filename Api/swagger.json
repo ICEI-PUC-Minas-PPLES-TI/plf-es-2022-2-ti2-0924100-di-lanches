@@ -93,6 +93,29 @@
         }
       }
     },
+    "/cliente/{cliente_id}": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name": "cliente_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/pedido/cancelar/{pedido_id}": {
       "post": {
         "tags": [
