@@ -342,17 +342,15 @@ Aqui esta apresentado o modelo de banco de dados logico mostrando como será arm
 
 ## 6. Indicadores de desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores.
-
 Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Percentual reclamações | Avaliar quantitativamente as reclamações | Percentual de reclamações em relação ao total atendimento |   | Tabela reclamações | Aprendizado e Crescimento |
-| Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | ![\frac{\sum{atendidas}}{\sum{requisicoes}}100](https://latex.codecogs.com/svg.latex?\frac{\sum{atendidas}}{\sum{requisicoes}}100) | Tabela solicitações | Processos internos |
-| Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
-
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
+| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Mede % de pedidos entregues |   | Tabela pedido | Cliente |
+| Taxa de Cancelamentos | Melhorar a prestação de serviço medindo a porcentagem e o motivo dos cancelamentos | Mede % de pedidos cancelados |   | Tabela cancelamentos | Cliente |
+| Taxa de sucesso em Vendas | Manter controle sobre os materiais que estão sendo entregues | Mede % de vendas realizadas com sucesso |   | Tabela pedido | Processo Interno |
+| Controle de Estoque | Manter controle sobre os ingredientes que estão disponíveis no estoque | Mede % de ingredientes disponíveis no estoque |   | Tabela ingredientes | Processo Interno |
+| Valor do Ticket Medio | Controle financeiro sobre o faturamento de cada venda | Mede % de faturamento em cada venda |   | Tabela pedido e Tabela cliente | Processo Interno |
 
 ## 7.Sistema desenvolvido
 
