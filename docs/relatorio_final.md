@@ -346,11 +346,11 @@ Usar o seguinte modelo:
 
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
-| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Afere a taxa de pedidos entregues | Pedidos Gerados ÷ Pedidos Entregues | Tabela pedido | Cliente |
-| Taxa de Cancelamentos | Melhorar a prestação de serviço medindo a porcentagem e o motivo dos cancelamentos | Afere a taxa de pedidos cancelados | Pedidos Gerados ÷ Cancelamentos | Tabela cancelamentos | Cliente |
-| Taxa de sucesso em Vendas | Manter controle sobre os materiais que estão sendo entregues | Afere a taxa de vendas realizadas com sucesso | Pedidos Gerados ÷ Pedidos Fechados com Sucesso | Tabela pedido | Processo Interno |
-| Controle de Estoque | Manter controle sobre os ingredientes que estão disponíveis no estoque | Afere a quantidade de ingredientes disponíveis no estoque |  Ingrediente Necessário ÷ Total do Ingrediente Disponível | Tabela ingredientes | Processo Interno |
-| Valor do Ticket Medio | Controle financeiro sobre o faturamento de cada venda | Afere o valor de faturamento em cada venda | Faturamento ÷ Quantidade de Operações de Venda | Tabela pedido | Processo Interno |
+| Taxa de Entregas | Manter controle sobre os pedidos que estão sendo entregues | Afere a taxa de pedidos entregues | Pedidos Gerados ÷ Pedidos Entregues | Tabela Pedido | Cliente |
+| Taxa de Cancelamentos | Melhorar a prestação de serviço medindo a porcentagem e o motivo dos cancelamentos | Afere a taxa de pedidos cancelados | Pedidos Gerados ÷ Cancelamentos | Tabela Cancelamentos | Cliente |
+| Taxa de sucesso em Vendas | Manter controle sobre os materiais que estão sendo entregues | Afere a taxa de vendas realizadas com sucesso | Pedidos Gerados ÷ Pedidos Fechados com Sucesso | Tabela Pedido | Processo Interno |
+| Controle de Estoque | Manter controle sobre os ingredientes que estão disponíveis no estoque | Afere a quantidade de ingredientes disponíveis no estoque |  Ingrediente Necessário ÷ Total do Ingrediente Disponível | Tabela Ingredientes | Processo Interno |
+| Valor do Ticket Medio | Controle financeiro sobre o faturamento de cada venda | Afere o valor de faturamento em cada venda | Faturamento ÷ Quantidade de Operações de Venda | Tabela Pedido | Processo Interno |
 
 ## 7.Sistema desenvolvido
 
