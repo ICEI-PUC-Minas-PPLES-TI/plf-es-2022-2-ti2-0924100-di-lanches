@@ -85,3 +85,66 @@ button:hover {
   transform: scale(1.04);
   transition: 1s;
 }
+
+@media only screen and (max-width: 950px){
+  
+  .card h1{
+    font-size: 7vw;
+  }
+  
+  
+  .card h2{
+    font-size: 4vw;
+  }
+  
+  .card{ 
+    width: 80vw;
+  }
+  
+  
+  input{
+    width: 68vw;
+  }
+  
+
+  
+  button{
+    width: 40vw;
+    height: 100px;
+    font-size: 2.5vw;
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+  
+  .card h1{
+    font-size: 7vw;
+  }
+  
+  
+  .card h2{
+    font-size: 4vw;
+    margin-bottom: 5vh;
+  }
+  
+  .card{ 
+    width: 80vw;
+    padding-block: 5vh;
+  }
+  
+  
+  input{
+    width: 68vw;
+    height: 4vh;
+  }
+  
+
+  
+  button{
+    width: 45vw;
+    height: 65px;
+    font-size: 3.2vw;
+  }
+  
+}
