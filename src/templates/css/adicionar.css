@@ -18,13 +18,14 @@ body{
 .card h1{
   color: #ff8c00;
   font-family: 'Poppins', sans-serif;
-  font-size: 2.8vw;
+  font-size: 2.6vw;
+  margin-bottom: 1vh;
 }
 
 
 .card h2{
   color: #ff8c00;
-  font-size: 1.8vw;
+  font-size: 1.6vw;
   font-family: 'Montserrat';
   font-weight: 500;
   margin-bottom: 7vh;
@@ -36,32 +37,38 @@ body{
   align-items: center;
   justify-content: center;
   background-color: #313131;
-  padding-block: 4vh;
+  padding-block: 10vh;
   width: 40vw;
   height: auto;
   border-radius: 20px;
 }
 
+.campos{
+  display: flex;
+  flex-direction: column;
+}
+
 input{
-  width: 35vw;
+  width: 30vw;
   border: none;
   height: 6vh;
   border-radius: 50px;
   outline: none;
   padding: 5px;
   font-size: 20px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 label{
   color: white;
   font-family: 'Poppins', sans-serif;
   margin-bottom: 1vh;
+  margin-left: 1vw;
 }
 
 button{
-  width: 35vw;
-  height: 10vh;
+  width: 20vw;
+  height: 70px;
   border: none;
   border-radius: 50px;
   background-color: #ff8c00;
@@ -70,11 +77,11 @@ button{
   font-size: 1.2vw;
   cursor: pointer;
   transition: 1s;
-  margin-top: 3vh;
+  margin-top: 2vh;
 }
 
 button:hover {
   background-color: #e68106;
-  transform: scale(1.02);
+  transform: scale(1.04);
   transition: 1s;
 }
