@@ -1,37 +1,34 @@
-let cadastro = {
+let login = {
     variaveis: {
-        url: "http://localhost:5000/api/autenticacao/cadastro"
+        url: "http://localhost:5000/api/autenticacao/"
     },
     funcoes:{
-        cadastrar: () => {
+        login: () => {
             let usuario = {
-                nome: $("#nome").val(),
-                telefone: $("#telefone").val(),
                 email: $("#email").val(),
                 senha: $("#senha").val()
             }
-            console.log(usuario)
             $.post({
-                url: cadastro.variaveis.url,
+                url: login.variaveis.url,
                 data: usuario,
                 success: (result)=>{
                     swal.fire({
                         icon: "success",
                         title: "Sucesso",
-                        text: "Cadastrado com sucesso",
+                        text: "logado com sucesso",
                         timer: 3000,
                         showConfirmButton: false,
                         timerProgressBar: true
                     }).then(e => {
-                        window.location.href = "./login.html";
+                        window.location.href = "./cardapio.html";
                     })
                 },
                 error: (e) => {
                     console.log(e)
                     swal.fire({
-                        icon: "error",
-                        title: "Erro",
-                        text: "Tente novamente mais tarde",
+                        icon: "warning",
+                        title: "Atenção",
+                        text: "Email ou senha incorretos",
                         timer: 3000, 
                         showConfirmButton: false,
                         timerProgressBar: true                       
@@ -40,12 +37,12 @@ let cadastro = {
             })        
         },
         init: ()=>{
-            $("#cadastrar").on("click", e => {
-                cadastro.funcoes.cadastrar();
+            $("#login").on("click", e => {
+                login.funcoes.login();
             })
         }
     }
 }
 $(document).ready(e=>{
-    cadastro.funcoes.init();
+    login.funcoes.init();
 })

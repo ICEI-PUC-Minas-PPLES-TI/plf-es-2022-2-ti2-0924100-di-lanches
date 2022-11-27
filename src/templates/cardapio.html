@@ -100,169 +100,33 @@
 
       <div class="col-12">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-cheese.png" alt="di'cheese" />
 
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Cheese</p>
-                  <p>R$ 20,00</p>
-                </header>
 
-                <p class="hamburguer-description">
-                  Pão, hambúrguer de carne bovina, queijo cheddar, presunto,
-                  alface, tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-tudo.png" alt="di'tudo" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Tudo</p>
-                  <p>R$ 25,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hembúrguer de carne bovina, queijo, presunto, ovo, bacon,
-                  alfalce, tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-siri.png" alt="di'siri" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Siri</p>
-                  <p>R$ 19,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hembúrguer de siri, queijo, presunto, ovo, bacon,
-                  alfalce, tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-bacon.png" alt="di'bacon" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Bacon</p>
-                  <p>R$ 24,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hambúrguer de carne bovina, queijo, bacon, alface,
-                  tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-tudo.png" alt="di'tudo" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Tudo</p>
-                  <p>R$ 25,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hembúrguer de carne bovina, queijo, presunto, ovo, bacon,
-                  alfalce, tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-bacon.png" alt="di'bacon" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Bacon</p>
-                  <p>R$ 24,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hambúrguer de carne bovina, queijo, bacon, alface,
-                  tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-cheese.png" alt="di'cheese" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Cheese</p>
-                  <p>R$ 20,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hambúrguer de carne bovina, queijo cheddar, presunto,
-                  alface, tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-            <div class="card">
-              <img src="images/lanches/di-siri.png" alt="di'siri" />
-
-              <div class="card-body">
-                <header class="card-header">
-                  <p>Di'Siri</p>
-                  <p>R$ 19,00</p>
-                </header>
-
-                <p class="hamburguer-description">
-                  Pão, hembúrguer de siri, queijo, presunto, ovo, bacon,
-                  alfalce, tomate.
-                </p>
-
-                <button class="card-button">Adicoinar ao carrinho</button>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </main>
+<template id="template-card">
+  <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+    <div class="card">
+      <img src="images/lanches/di-cheese.png" alt="di'cheese" />
 
+      <div class="card-body">
+        <header class="card-header">
+          <p class="card-nome">Di'Cheese</p>
+          <p class="card-preco">R$ 20,00</p>
+        </header>
+
+        <p class="hamburguer-description">
+          Pão, hambúrguer de carne bovina, queijo cheddar, presunto,
+          alface, tomate.
+        </p>
+
+        <button class="card-button">Adicoinar ao carrinho</button>
+      </div>
+    </div>
+  </div>
+</template>
     <footer class="py-1">
       <p class="text-center">© 2022 Di'Lanches</p>
     </footer>
