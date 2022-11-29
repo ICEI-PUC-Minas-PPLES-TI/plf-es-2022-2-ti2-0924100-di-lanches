@@ -3,41 +3,50 @@ let cardapio = {
         url: "http://localhost:5000/api/lanche/"
     },
     funcoes:{
-        carapio: () => {
-            $.post({
-                url: login.variaveis.url,
+        montar: () => {
+            $.get({
+                url: cardapio.variaveis.url,
                 success: (result)=>{
                     swal.fire({
                         icon: "info",
-                        title: "Sucesso",
-                        text: "logado com sucesso",
-                        timer: 3000,
+                        title: "Aguarde",
+                        text: "Carregando cardapio",
+                        timer: 4000, 
                         showConfirmButton: false,
-                        timerProgressBar: true
-                    }).then(e => {
-                        window.location.href = "./cardapio.html";
+                        timerProgressBar: true,
+                        toast: true,
+                        position: "top-right"                    
+                    })
+                    
+                    result.forEach(k => {
+                        let template  = $($("#template-card").html())
+                        $(template).find(".card-img-lanche").attr("src",`images/lanches/${k.foto}`).attr("alt", k.nome)
+                        $(template).find(".card-nome").html(k.nome)
+                        $(template).find(".card-preco").html(`R$: ${k.valor.toLocaleString('pt-br', {minimumFractionDigits: 2})}`)
+                        $(template).find(".hamburguer-description").html(k.descricao)
+                        $("#lanches").append(template)
+                        console.table(k)
                     })
                 },
                 error: (e) => {
-                    console.log(e)
                     swal.fire({
                         icon: "warning",
                         title: "Atenção",
-                        text: "Email ou senha incorretos",
+                        text: "Cardapio vazio",
                         timer: 3000, 
                         showConfirmButton: false,
-                        timerProgressBar: true                       
+                        timerProgressBar: true,
+                        toast: true,
+                        position: "top-right"                    
                     }) 
                 }
             })        
         },
         init: ()=>{
-            $("#login").on("click", e => {
-                login.funcoes.login();
-            })
+            cardapio.funcoes.montar();
         }
     }
 }
 $(document).ready(e=>{
-    login.funcoes.init();
+    cardapio.funcoes.init();
 })

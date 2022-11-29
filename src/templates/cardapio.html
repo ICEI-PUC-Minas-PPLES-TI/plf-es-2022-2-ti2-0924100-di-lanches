@@ -99,34 +99,34 @@
     <main class="container main">
 
       <div class="col-12">
-        <div class="row">
+        <div class="row" id="lanches">
 
 
           
         </div>
       </div>
     </main>
-<template id="template-card">
-  <div class="col-12 col-sm-12 col-md-6 col-lg-3">
-    <div class="card">
-      <img src="images/lanches/di-cheese.png" alt="di'cheese" />
+  <template id="template-card">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+      <div class="card">
+        <img src="images/lanches/di-cheese.png" alt="di'cheese" class="card-img-lanche" onerror="$(this).attr('src', 'images/naoencontrado.jpg')"/>
 
-      <div class="card-body">
-        <header class="card-header">
-          <p class="card-nome">Di'Cheese</p>
-          <p class="card-preco">R$ 20,00</p>
-        </header>
+        <div class="card-body">
+          <header class="card-header">
+            <p class="card-nome">Di'Cheese</p>
+            <p class="card-preco">R$ 20,00</p>
+          </header>
 
-        <p class="hamburguer-description">
-          Pão, hambúrguer de carne bovina, queijo cheddar, presunto,
-          alface, tomate.
-        </p>
+          <p class="hamburguer-description">
+            Pão, hambúrguer de carne bovina, queijo cheddar, presunto,
+            alface, tomate.
+          </p>
 
-        <button class="card-button">Adicoinar ao carrinho</button>
+          <button class="card-button">Adicoinar ao carrinho</button>
+        </div>
       </div>
     </div>
-  </div>
-</template>
+  </template>
     <footer class="py-1">
       <p class="text-center">© 2022 Di'Lanches</p>
     </footer>
@@ -153,5 +153,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src ="javascript/jquery/jquery.js"></script>
+    <script src="javascript/apiCardapio.js"></script>
   </body>
 </html>
