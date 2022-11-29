@@ -30,18 +30,13 @@ let estoque = {
                 "columns": [
                     {"data": "id"},
                     {"data": "nome"},
-                    {"data": "quantidade", "render": (data, row) => {
-                        return data > 0 ? data : "esgotado";
-                    }},
-                    {"data": "valor_unidade", "render": (data, row)=>{
-                        console.table(row)
-                        return `R$: ${data.toLocaleString('pt-br', {minimumFractionDigits: 2})}`;
-                    }}
+                    {"data": "quantidade", "render": (data, row) => data > 0 ? data : "esgotado"},
+                    {"data": "valor_unidade", "render": (data, row) => `R$: ${data.toLocaleString('pt-br', {minimumFractionDigits: 2})}`}
                 ]
             })                 
         },
         init: ()=>{
-            estoque.funcoes.montarTable();
+            estoque.funcoes?.montarTable();
         }
     }
 }
