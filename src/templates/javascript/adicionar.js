@@ -4,46 +4,69 @@ var qntd = document.getElementById('qntd')
 var preco = document.getElementById('preco')
 
 
-preco.addEventListener('keypress', () => {
-  if (preco.value.length === 0) {
-    preco.value += 'R$';
-  }
-})
 
-
-function retornarNumero(evt) {
-  var theEvent = evt || window.event;
-  var key = theEvent.keyCode || theEvent.which;
-  key = String.fromCharCode( key );
-  var regex = /^[0-9.]+$/;
-  if( !regex.test(key) ) {
-     theEvent.returnValue = false;
-     if(theEvent.preventDefault) theEvent.preventDefault();
-  }
-}
+$('#preco').unmask().mask("#.##0,00", {reverse: true});
 
 function valida() {
-  if(nome.value.length == 0){
+
+  if(nome.value.length == 0 || qntd.value.length == 0 || preco.value.length == 0){
     return erro();
   }
-  else {
-    return valido();
+  else { 
+    Swal.fire({
+      title: 'Deseja adicionar ingrediente no estoque?',
+      showDenyButton: true,
+      showCancelButton: false,
+      confirmButtonText: 'Adicionar',
+      denyButtonText: `Cancelar`,
+    }).then((result) => {
+      /* Read more about isConfirmed, isDenied below */
+      if (result.isConfirmed) {
+        let ingrediente = {
+          nome:nome.value,
+          quantidade: qntd.value,
+          valor_unidade: $('#preco').val().replace(",",".")
+        }
+        $.post({
+          url:"http://localhost:5000/api/ingrediente/",
+          data:ingrediente,
+          success:(result) => {
+            swal.fire({
+              icon: "success",
+              title: "Sucesso",
+              text: "Ingrediente adicionado com sucesso",
+              timer: 2000, 
+              showConfirmButton: false,
+              timerProgressBar: true,
+            }).then(a => {
+              Swal.fire({
+                title: 'Deseja adicionar outo ingrediente?',
+                showDenyButton: true,
+                showCancelButton: false,
+                confirmButtonText: 'Sim',
+                denyButtonText: `Não`,
+              }).then(result => {
+                result.isConfirmed ? $("input").val("") : window.location.href = "estoque.html";
+              })
+            })
+          },
+          error:()=>{
+            swal.fire({
+              icon: "error",
+              title: "Error",
+              text: "Dados Invalidos",
+              timer: 2000, 
+              showConfirmButton: false,
+              timerProgressBar: true,
+            })
+          }
+        })
+      } else if (result.isDenied) {
+        Swal.fire('Cancelado com sucesso', '', 'info')
+      }
+    })
   }
-
-  if(qntd.value.length == 0){
-    return erro();
-    setInterval
-  }
-  else {
-    return valido();
-  }
-
-  if(preco.value.length == 0){
-    return erro(); 
-  }
-  else {
-    return valido();
-  }
+  
 }
 
 function erro(){
@@ -52,12 +75,7 @@ function erro(){
   labelErro.innerHTML = "Preencha todos os campos do formulário."
 }
 
-function valido(){
-  labelErro.style.display = "flex";
-  labelErro.style.color = "green";
-  labelErro.innerHTML = "Cadastro concluído"
-}
-
 function end(){
 
 }
+
