@@ -73,9 +73,8 @@ function erro(){
   labelErro.style.display = "flex";
   labelErro.style.color = "red";
   labelErro.innerHTML = "Preencha todos os campos do formulário."
-}
-
-function end(){
-
+  setTimeout(function(){
+    labelErro.style.display = "none"
+  },2000);
 }
 
