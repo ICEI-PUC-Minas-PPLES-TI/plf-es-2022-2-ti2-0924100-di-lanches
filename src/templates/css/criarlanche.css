@@ -80,3 +80,7 @@ a.dropdown-item:hover {
 .invert {
   height: 100px;
 }
+
+.card{
+  height: 40vh;
+}
