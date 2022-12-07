@@ -1,23 +1,23 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Sistema de geração de pedidos com base em um menu de opções de alimentos com estoque e preço definidos. Facilitando a ponte entre o cliente e o fornecedor.
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Brito
+    given-names: Eduardo Augusto
+  - family-names: Panes de Moraes
+    given-names: Eron
+  - family-names: Costa Barros
+    given-names: Guilherme Augustto
+  - family-names: Pinto Soares
+    given-names: Henrique
+  - family-names: Quintão Magalhães
+    given-names: José Miguel
+  - family-names: Amâncio Pereira Magela
+    given-names: Pablo Guilherme
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: Neves Rodrigues 
-    given-names: Cristiano
+    family-names: Teixeira Silva 
+    given-names: Cristiano Geraldo 
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Lima Reis
@@ -27,9 +27,9 @@ authors:
     family-names: Bastos de Paula
     given-names: Hugo  
 keywords:
-  - 
-  - 
-repository-code: 
+  - Restaurante
+  - Fast Food
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2021-12-14
+date-released: 2022-12-14
