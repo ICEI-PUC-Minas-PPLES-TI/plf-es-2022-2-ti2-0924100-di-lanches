@@ -6,10 +6,10 @@ O contexto do projeto do grupo Di’Lanches é a criação de um sistema de gera
 
 * **Eduardo Augusto Brito**
 * **Eron Panes de Moraes**
-* **Pablo Guilherme A.P Magela**
 * **Guilherme Augustto Costa Barros**
 * **Henrique Pinto Santos**
 * **José Miguel Quintão Magalhães**
+* **Pablo Guilherme A.P Magela**
 
 ## Professores
 
