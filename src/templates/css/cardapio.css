@@ -157,3 +157,19 @@ footer {
   width: 100%;
   color: white;
 }
+
+.criarLanche{
+  width: 17vw;
+  height: 50vh;
+  background-color: #726d6d;
+  opacity: 0.6;
+  color: white;
+  font-size: 6vw;
+  transition: 1s;
+}
+
+.criarLanche:hover{
+  transform: scale(1.04);
+  transition: 1s;
+  opacity: 1;
+}
