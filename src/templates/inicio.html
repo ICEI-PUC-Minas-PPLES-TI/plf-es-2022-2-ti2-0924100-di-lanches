@@ -28,7 +28,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/cardapio.css">
+    <link rel="stylesheet" href="css/inicio.css">
     <link
     href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"
     rel="stylesheet"
@@ -63,7 +63,7 @@
         >
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="inicio.html">Inicio</a>
+              <a class="nav-link" aria-current="page" href="inicio.html" id="selecionado">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="cardapio.html">Cardapio</a>
@@ -72,7 +72,7 @@
               <a class="nav-link" href="entregas.html">Entrega</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="estoque.html" id="selecionado">Estoque</a>
+              <a class="nav-link" href="estoque.html">Estoque</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -99,27 +99,6 @@
       </div>
     </div>
     <main class="container main">
-
-      <div class="col-12">
-        <div class="row">
-          <div class="col-xl-12 col-sm-12 col-md-6 col-lg-10">
-            <nav class="navbar navbar-lda bg-secundary justify-content-between">
-              <a href="adicionarIngrediente.html"><button type="button" style= "background-color: #ff8b00; color: white;" class="btn btn-add">Adicionar produto</button></a>
-            </nav>
-            <table class="table table-dark table-bordered" id="estoque-table">
-              <thead style= "color: #ff8b00" >
-                <tr>
-                  <th scope="col">ID (#)</th>
-                  <th scope="col">Produto</th>
-                  <th scope="col">Qntd (un)</th>
-                  <th scope="col">Preço</th>
-                </tr>
-              </thead>              
-            </table>
-
-          </div>
-        </div>
-      </div>
 
 
     <script
