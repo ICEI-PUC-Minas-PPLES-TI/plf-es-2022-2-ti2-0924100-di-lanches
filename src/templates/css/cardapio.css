@@ -169,7 +169,7 @@ footer {
 }
 
 .criarLanche:hover{
-  transform: scale(1.04);
+  transform: scale(1.02);
   transition: 1s;
   opacity: 0.6;
 }
