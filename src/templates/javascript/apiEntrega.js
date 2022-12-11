@@ -41,5 +41,5 @@ let entrega = {
     }
 }
 $(document).ready(e=>{
-    estoque.funcoes.init();
+    entrega.funcoes.init();
 })
