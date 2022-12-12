@@ -49,3 +49,18 @@ pedidoRouter.post("/cancelar/validar/:cancelamento_id", async (req, res, next) =
    })
    .catch(error => next(new HttpException(400, 'Dados inválidos.', {campos: error?.errors})))
 })
+// Entrega
+pedidoRouter.get("/Entrega/:id_pedido",async (req, res, next) => {
+     await DBEntities.Pedido.findOne({
+          where: [
+                  { id: req.params.id_pedido },
+                  { delivery: true },
+                  { status_id: 1 }       
+          ],
+          include: [
+               { model: DBEntities.Endereco },
+               { model: DBEntities.Status }
+          ]
+     }).then(result => { res.status(200).json(result)})
+     .catch(() => next(new HttpException(500, 'Erro ao encontrar entrega, por favor, tente novamente mais tarde.')))
+})

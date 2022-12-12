@@ -14,7 +14,7 @@
 #logo{
   width: 20vw;
 
-  margin-bottom: 5vh;
+  margin-block: 5vh;
 }
 
 .left-login {
@@ -66,6 +66,30 @@
   background-color: rgb(34, 33, 33);
 }
 
+#voltar{
+  left: 1vw;
+  top: 2vh;
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+  background-color: rgb(34, 33, 33);
+  border: 2px solid rgb(255, 255, 255);
+  width: 13vw;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+#seta{
+ width: 1.5vw;
+}
+
 .right-login{
   display: flex;
   flex-direction: column;
@@ -75,7 +99,7 @@
   background-color: rgb(233, 233, 233);
 
 
-  height: 100vh;
+  height: auto;
   width: 65%;
 }
 
@@ -114,6 +138,10 @@
 }
 
 #nav{ 
+  display: none;
+}
+
+#nav-2{ 
   display: none;
 }
 
@@ -169,6 +197,19 @@
     margin-top: 8vh;
   }
 
+  #voltar{
+    left: 1vw;
+    top: 2vh;
+    font-size: 2vw;
+    gap: 2vw;
+    width: 28vw;
+    height: 5vh;
+    border-radius: 10px;
+  }
+  
+  #seta{
+   width: 3vw;
+  }
   .row{
     height: 100%;
     display: flex;
@@ -176,6 +217,7 @@
   }
   .right-login{
     width: 100%;
+    padding-top: 10vh;
   }
   .right-login h1{
     font-size: 3.6rem;
@@ -237,6 +279,18 @@
   }
 
   #nav a{
+    color:#ff8b00;
+  }
+
+
+  #nav-2{
+    display: flex;
+    margin-bottom: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+  }
+
+  #nav-2 a {
     color:#ff8b00;
   }
 
