@@ -1,86 +1,202 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-body {
-  /* background: rgb(0,0,0); */
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 5vh;
   background: #000000;
+}
+
+.card h1{
+  color: #ff8c00;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.6vw;
+  margin-bottom: 1vh;
+}
+
+
+.card h2{
+  color: #ff8c00;
+  font-size: 1.6vw;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  margin-bottom: 7vh;
+}
+
+.card{ 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-#mainNavigation a {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  transition: 0.5s;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  background-color: #313131;
+  padding-block: 10vh;
+  width: 40vw;
+  height: auto;
+  border-radius: 20px;
 }
 
-#logo {
-  width: 200px;
+.campos{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
 }
 
-#selecionado{
+input{
+  width: 30vw;
+  border: none;
+  height: 6vh;
+  border-radius: 50px;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+#imagem{
   color: white;
 }
 
-.dropdown-menu {
-  background: #181818;
+#ingredientes{
+  margin-bottom: 5vh;
 }
 
-a.dropdown-toggle {
-  color: #eb8816 !important;
+#ingrediente{
+  width: 30vw;
+  color: black;
+}
+
+#adicionar {
+  margin-top: 2vh;
+  height: 5vh;
+  width: 7vw;
+  border-radius: 50px;
   transition: 0.5s;
 }
 
-a.dropdown-toggle:hover {
-  color: #ffffff !important;
+#adicionar:hover {
+  background-color: rgb(170, 170, 170);
   transition: 0.5s;
 }
 
-
-a.dropdown-item:hover {
-  color: #181818 !important;
+label{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
 }
 
-.nav-item a {
-  color: #eb8816;
+#labelErro{
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+#labelErro img{
+  width: 2vw;
+}
+
+.button{
+  width: 20vw;
+  height: 70px;
+  border: none;
+  border-radius: 50px;
+  background-color: #ff8c00;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2vw;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 2vh;
+}
+
+.button:hover {
+  background-color: #e68106;
+  transform: scale(1.04);
+  transition: 1s;
+}
+
+@media only screen and (max-width: 950px){
+  
+  .card h1{
+    font-size: 7vw;
+  }
+  
+  
+  .card h2{
+    font-size: 4vw;
+  }
+  
+  .card{ 
+    width: 80vw;
+  }
+  
+  
+  input{
+    width: 68vw;
+  }
+
+  input::placeholder {
+    font-size: 2vw;
+  }
+  
+  button{
+    width: 40vw;
+    height: 100px;
+    font-size: 2.5vw;
+  }
   
 }
 
-.nav-item a:hover {
-  color: #fff;
-}
+@media only screen and (max-width: 600px){
+  
+  .card h1{
+    font-size: 7vw;
+  }
+  
+  
+  .card h2{
+    font-size: 4vw;
+    margin-bottom: 5vh;
+  }
+  
+  .card{ 
+    width: 80vw;
+    padding-block: 5vh;
+  }
+  
+  
+  input{
+    width: 68vw;
+    height: 4vh;
+  }
+  input::placeholder {
+    font-size: 3vw;
+  }
 
-.nav-item {
-  min-width: 12vw;
-}
+  
+  button{
+    width: 45vw;
+    height: 65px;
+    font-size: 3.2vw;
+  }
 
-#mainNavigation {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 123;
-}
 
-#navbarNavDropdown.collapsing .navbar-nav,
-#navbarNavDropdown.show .navbar-nav {
-  background: #381f01;
-  padding: 12px;
-}
-
-.invert {
-  height: 100px;
-}
-
-.card{
-  height: 40vh;
+  
 }
