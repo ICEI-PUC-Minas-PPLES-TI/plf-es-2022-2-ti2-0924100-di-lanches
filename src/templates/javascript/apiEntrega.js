@@ -1,6 +1,6 @@
 let entrega = {
     variaveis: {
-        url: "http://localhost:5000/api/entrega/"
+        url: "http://localhost:5000/api/pedido/entrega/"
     },
     funcoes:{
         montarTable: () => {
@@ -29,9 +29,9 @@ let entrega = {
                 },
                 "columns": [
                     {"data": "id"},
-                    {"data": "endereco_entrega"},
-                    {"data": "cep", "render": (data, row) => data > 0 ? data : "esgotado"},
-                    {"data": "numero_pedido", "render": (data, row) => `R$: ${data.toLocaleString('pt-br', {minimumFractionDigits: 2})}`}
+                    {"data": "Endereco.rua"},
+                    {"data": "Endereco.CEP"},
+                    {"data": "id"}
                 ]
             })                 
         },
@@ -41,5 +41,5 @@ let entrega = {
     }
 }
 $(document).ready(e=>{
-    estoque.funcoes.init();
+    entrega.funcoes.init();
 })
