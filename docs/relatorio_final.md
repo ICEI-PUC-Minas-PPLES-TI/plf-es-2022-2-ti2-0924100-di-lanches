@@ -362,6 +362,8 @@ Faça aqui uma breve descrição do software e coloque as principais telas com u
 ## 8. Conclusão
 
 **"Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo."**
+    
+O projeto da Di'Lanches teve como intuíto principal tornar o processo de solicitação de pedidos do restaurante de uma maneira simples, criando uma interface amigável para o cliente. Trouxemos também no projeto uma forma de obter maior controle do estoque de produtos, fazendo com que o restaurante obtivesse maior precisão na produção de pedidos. E para o controle do negócio, o restaurante está sempre aberto para escutar Feedbacks dos clientes.
 
 # REFERÊNCIAS
 
