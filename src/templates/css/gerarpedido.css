@@ -18,14 +18,15 @@ body{
 .card h1{
   color: #ff8c00;
   font-family: 'Poppins', sans-serif;
-  font-size: 2.6vw;
+  font-weight: 700;
+  font-size: 3vw;
   margin-bottom: 1vh;
 }
 
 
 .card h2{
   color: #ff8c00;
-  font-size: 1.6vw;
+  font-size: 1.4vw;
   font-family: 'Montserrat';
   font-weight: 500;
   margin-bottom: 7vh;
@@ -88,7 +89,7 @@ input::placeholder {
 }
 
 #entrega{
-  margin-top: 4vh;
+  margin-block: 1vh;
   width: 1vw;
 
 }

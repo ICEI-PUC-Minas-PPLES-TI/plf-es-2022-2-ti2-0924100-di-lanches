@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 body {
   /* background: rgb(0,0,0); */
   background: #000000;
@@ -88,6 +93,7 @@ a.dropdown-item:hover {
   align-items: center;
   padding-top: 10vh;
   padding-bottom: 15vh;
+  animation: fadeIn 1s alternate;
 }
 
 .card-area {

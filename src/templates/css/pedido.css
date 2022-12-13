@@ -8,6 +8,11 @@
   box-sizing: border-box;
 }
 
+@keyframes fadeIn {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 body {
   /* background: rgb(0,0,0); */
   background: #000000;
@@ -91,9 +96,9 @@ a.dropdown-item:hover {
   color: white;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  font-size: 1.5vw;
-  width: 30vw;
-  height: 10vh;
+  font-size: 1.3vw;
+  width: 20vw;
+  height: 80px;
   transition: 1s;
 }
 
@@ -102,4 +107,9 @@ a.dropdown-item:hover {
   background-color: #e0800a;
   transform: scale(1.02);
   transition: 1s;  
+}
+
+.main {
+  animation: fadeIn 1s alternate;
+  
 }
