@@ -1,6 +1,6 @@
 let entrega = {
     variaveis: {
-        url: "https://localhost:5000/api/pedido/entrega/1"
+        url: "http://localhost:5000/api/pedido/entrega/"
     },
     funcoes:{
         montarTable: () => {
@@ -29,8 +29,8 @@ let entrega = {
                 },
                 "columns": [
                     {"data": "id"},
-                    {"data": "rua"},
-                    {"data": "CEP"},
+                    {"data": "Endereco.rua"},
+                    {"data": "Endereco.CEP"},
                     {"data": "id"}
                 ]
             })                 
