@@ -1,6 +1,6 @@
 let entrega = {
     variaveis: {
-        url: "http://localhost:5000/api/entrega/"
+        url: "https://localhost:5000/api/pedido/entrega/1"
     },
     funcoes:{
         montarTable: () => {
@@ -29,9 +29,9 @@ let entrega = {
                 },
                 "columns": [
                     {"data": "id"},
-                    {"data": "endereco_entrega"},
-                    {"data": "cep", "render": (data, row) => data > 0 ? data : "esgotado"},
-                    {"data": "numero_pedido", "render": (data, row) => `R$: ${data.toLocaleString('pt-br', {minimumFractionDigits: 2})}`}
+                    {"data": "rua"},
+                    {"data": "CEP"},
+                    {"data": "id"}
                 ]
             })                 
         },
