@@ -93,6 +93,10 @@ input::placeholder {
 
 }
 
+.dadosEntrega{
+  display: none;
+}
+
 #adicionar {
   margin-top: 2vh;
   height: 5vh;
