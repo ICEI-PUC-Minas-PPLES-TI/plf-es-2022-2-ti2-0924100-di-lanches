@@ -363,7 +363,9 @@ Faça aqui uma breve descrição do software e coloque as principais telas com u
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Cadastro%20-%20Di'lanches.png"
 </p>
     
-
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/cardapio.png"
+</p>
 
 ## 8. Conclusão
 
