@@ -334,7 +334,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 **"Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário."**
     
-As tecnologias utiizadas foram HTML, CSS e JavaScript para FrontEnd, TS Node Express para BackEnd e PostgreSQL para o Banco de Dados, além de Visual Studio Code como IDE de desenvolvimento, Github como repositório, Figma para os Templates e Discord para comunicação e reuniões.
+As tecnologias utilizadas foram HTML, CSS e JavaScript para FrontEnd, TS Node Express para BackEnd e PostgreSQL para o Banco de Dados, além de Visual Studio Code como IDE de desenvolvimento, Github como repositório, Figma para os Templates e Discord para comunicação e reuniões.
 
 ## 5. Modelo de dados
 
@@ -358,6 +358,8 @@ Usar o seguinte modelo:
 ## 7.Sistema desenvolvido
 
 Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+
+https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Cadastro%20-%20Di'lanches.png
 
 ## 8. Conclusão
 
