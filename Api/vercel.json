@@ -2,10 +2,10 @@
     "name": "me ajuda",
     "version": 2,
     "public": true,
-    "build": {
-        "src": "build/index.js",
+    "builds": [{
+        "src": "./build/index.js",
         "use": "@vercel/node"
-    },
+    }],
     "routes": [
       {
         "src": "/(.*)",
