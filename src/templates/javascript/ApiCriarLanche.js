@@ -6,13 +6,20 @@ let cadastrar = {
         cadastrarLanche: () => {
             let lanche = {
                 foto: $("#imagem").val(),
-                descricao: $("#descricao").val(),
+                descricao: "delicia",
                 valor: $("#preco").val(),
                 nome: $("#nome").val(),
                 ativo: true,
-                Ingrediente_lanches: "bacon"
+                Ingrediente_lanches:[
+                {
+                    ingrediente_id: 1,
+                    valor: 2,
+                    acrescimos: 1,
+                    quantidade: 2
+                }
+            ]
 
-            }
+        }
             console.log(lanche)
             $.post({
                 url: cadastrar.variaveis.url,
@@ -43,7 +50,7 @@ let cadastrar = {
             })        
         },
         init: ()=>{
-            $("#enviar").on("click", e => {
+            $("#cadastrar").on("click", e => {
                 cadastrar.funcoes.cadastrarLanche();
             })
         }
