@@ -357,37 +357,45 @@ Usar o seguinte modelo:
 
 ## 7.Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
-
 **TELA DE INICIO**
     
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_de_Inicio.png"
 </p>
     
+Tela principal do site.
+    
 **TELA CARDAPIO**
     
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_cardapio.png"
 </p>
-  
+
+Tela onde o funcionário possui todas as informações do cardápio.
+    
 **TELA LOGIN**
     
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_login.png"
 </p>
+
+Tela onde o funcionário realiza o login no sistema.
     
 **TELA REGISTRO**
     
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_register.png"
 </p>
+
+Tela onde o funcionário realiza seu cadastro no sistema.
     
 **TELA PEDIDO**
     
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_pedido.png"
 </p>
+
+Tela onde o funcionário possui as informações do pedido.
     
 **TELA ESTOQUE**
     
@@ -395,11 +403,15 @@ Faça aqui uma breve descrição do software e coloque as principais telas com u
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_estoque.png"
 </p>
    
+Tela onde o funcionário possui informações do estoque. Aqui ele pode remover, alterar e adicionar produtos no estoque.
+    
 **TELA CRIAR LANCHE**
     
 <p align="center">
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_criarlanche.png"
 </p>
+   
+Tela onde o funcionário realiza a criação do lanche.
     
 **TELA ADICIONAR INGREDIENTE**
     
@@ -407,11 +419,11 @@ Faça aqui uma breve descrição do software e coloque as principais telas com u
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_adicionaringrediente.png"
 </p>
 
-## 8. Conclusão
-
-**"Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo."**
+Tela onde o funcionário adiciona ingredientes ao lanche.
     
-O projeto da Di'Lanches teve como intuíto principal tornar o processo de solicitação de pedidos do restaurante de uma maneira simples, criando uma interface amigável para o cliente. Trouxemos também no projeto uma forma de obter maior controle do estoque de produtos, fazendo com que o restaurante obtivesse maior precisão na produção de pedidos. E para o controle do negócio, o restaurante está sempre aberto para escutar Feedbacks dos clientes.
+## 8. Conclusão
+    
+O projeto da Di'Lanches é um sistema de gestão que teve como intuíto principal tornar o processo de solicitação de pedidos do restaurante de uma maneira simples, criando uma interface amigável para o atendente. Trouxemos também no projeto uma forma de obter maior controle do estoque de produtos, fazendo com que o restaurante obtivesse maior precisão na produção de pedidos. E para o controle do negócio, o restaurante está sempre aberto para escutar Feedbacks dos clientes.
 
 # REFERÊNCIAS
 
