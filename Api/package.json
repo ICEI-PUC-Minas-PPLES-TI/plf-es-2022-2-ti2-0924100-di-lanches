@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
+    "vercelStart": "node ./build/index.js",
     "swagger-autogen": "node src/utils/swaggerAutogen.ts"
   },
   "dependencies": {
