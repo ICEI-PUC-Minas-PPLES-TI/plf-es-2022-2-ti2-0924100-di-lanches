@@ -36,3 +36,4 @@ export const startServer = async () => {
 
     app.listen(config.port, () => console.log(`[Express] Running at port ${config.port}`))
 }
+startServer()
