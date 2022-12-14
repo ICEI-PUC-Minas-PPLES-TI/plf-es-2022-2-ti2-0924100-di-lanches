@@ -5,6 +5,7 @@ var labelErro = document.querySelector("#labelErro")
 
 
 
+
 preco.addEventListener('keypress', () =>{
   if (preco.value.length === 0) {
     preco.value += 'R$'
@@ -12,7 +13,10 @@ preco.addEventListener('keypress', () =>{
 })
 
 preco.addEventListener('focusout', () =>{
+  
+  if(preco.value.length > 0){
   preco.value +=',00'
+  }
 })
 
 function valida() {
