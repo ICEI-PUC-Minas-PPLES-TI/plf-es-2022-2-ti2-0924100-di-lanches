@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.routers = void 0;
+const express_1 = require("express");
+const autenticacaoRouter_1 = require("./route/autenticacaoRouter");
+const clienteRouter_1 = require("./route/clienteRouter");
+const enderecoRouter_1 = require("./route/enderecoRouter");
+const ingredienteRouter_1 = require("./route/ingredienteRouter");
+const lancheRouter_1 = require("./route/lancheRouter");
+const pedidoRouter_1 = require("./route/pedidoRouter");
+exports.routers = (0, express_1.Router)();
+exports.routers.use("/autenticacao", autenticacaoRouter_1.autenticacaoRouter);
+exports.routers.use("/cliente", clienteRouter_1.clienteRouter);
+exports.routers.use("/pedido", pedidoRouter_1.pedidoRouter);
+exports.routers.use("/lanche", lancheRouter_1.lancheRouter);
+exports.routers.use("/endereco", enderecoRouter_1.enderecoRouter);
+exports.routers.use("/ingrediente", ingredienteRouter_1.ingredienteRouter);
