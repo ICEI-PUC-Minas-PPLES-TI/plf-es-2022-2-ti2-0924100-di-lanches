@@ -31,7 +31,7 @@ const startServer = async () => {
     app.use(json())
     app.use(express.urlencoded({extended: true}))
     
-    app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+    app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
     app.use('/api', routers)
 
     app.listen(config.port, () => console.log(`[Express] Running at port ${config.port}`))
