@@ -14,12 +14,6 @@ preco.addEventListener('keypress', () =>{
   }
 })
 
-preco.addEventListener('focusout', () =>{
-  
-  if(preco.value.length > 0){
-  preco.value +=',00'
-  }
-})
 
 function valida() {
   if(nome.value.length === 0 || preco.value.length === 0 || descricao.value.length === 0){
