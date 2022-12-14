@@ -1,6 +1,6 @@
 require('dotenv').config()
 export const config = {
-    port: parseInt(process.env.PORT as string) || 5000,
+    port: parseInt(process.env.PORT as string) || 1010,
     secret: process.env.SECRET,
     database: {
         host: process.env.DATABASE_HOSTNAME,

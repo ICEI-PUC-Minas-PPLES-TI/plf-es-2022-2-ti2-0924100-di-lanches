@@ -190,6 +190,37 @@
                 }
             }
         },
+        "/pedido/Entrega/{id_pedido}": {
+            "get": {
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "id_pedido",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/pedido/Entrega/": {
+            "get": {
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
         "/lanche/": {
             "get": {
                 "tags": [
@@ -337,6 +368,96 @@
                 ],
                 "description": "",
                 "parameters": [],
+                "responses": {
+                    "201": {
+                        "description": "Criado"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "nome": {
+                                        "example": "any"
+                                    },
+                                    "quantidade": {
+                                        "example": "any"
+                                    },
+                                    "valor_unidade": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "put": {
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "ativo": {
+                                        "example": "any"
+                                    },
+                                    "id": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/ingrediente/{id_ingrediente}": {
+            "get": {
+                "tags": [
+                    "Ingredientes"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "id_ingrediente",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "Ingredientes"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "id_ingrediente",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
                 "responses": {
                     "201": {
                         "description": "Criado"
