@@ -33,6 +33,8 @@
     href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"
     rel="stylesheet"
   />
+  <link rel="stylesheet" href="css/cardapio.css">
+
   </head>
 
   <body>
@@ -99,7 +101,31 @@
       </div>
     </div>
     <div class="main">
-      <a href="gerarpedido.html"><button id="gerar">GERAR PEDIDO</button></a>
+      <div class="col-12">
+        <div class="row" id="lanches" >
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+              <img src="images/lanches/di-cheese.png" alt="di'cheese" class="card-img-lanche" onerror="$(this).attr('src', 'images/naoencontrado.jpg')"/>
+      
+              <div class="card-body">
+                <header class="card-header">
+                  <p class="card-nome">Di'Cheese</p>
+                  <p class="card-preco">R$ 20,00</p>
+                </header>
+      
+                <p class="hamburguer-description">
+                  Pão, hambúrguer de carne bovina, queijo cheddar, presunto,
+                  alface, tomate.
+                </p>
+      
+                <button class="card-button">Remover do carrinho</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <a href="gerarpedido.html"><button id="gerar">Concluir Pedido</button></a>
     </div>
 
     <script

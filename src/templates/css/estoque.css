@@ -90,3 +90,6 @@ main{
   padding-top: 10vh;
   animation: fadeIn 1s alternate;
 }
+#estoque-table_filter > label, #estoque-table_filter > label >input {
+  color:white !important;
+}
