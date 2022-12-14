@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="icon" href="images/brand/logo.png"/>
+    <link rel="icon" href="images/brand/logo.png" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -29,53 +29,87 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/criarlanche.css">
+    <link rel="stylesheet" href="css/criarlanche.css" />
     <link
-    href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"
-    rel="stylesheet"
-  />
+      href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="card">
       <h1>Criar novo lanche</h1>
       <h2>Preencha os dados</h2>
-  
+
       <div class="campos">
-      <label for="Nome">Nome do lanche</label>
-      <input type="text" placeholder="Digite o nome do ingrediente" name="nome" id="nome" autocomplete="off" maxlength="50">
+        <label for="Nome">Nome do lanche</label>
+        <input
+          type="text"
+          placeholder="Digite o nome do ingrediente"
+          name="nome"
+          id="nome"
+          autocomplete="off"
+          maxlength="50"
+        />
       </div>
-      
-  
+
       <div class="campos">
-      <label for="Preço">Preço de venda(R$)</label>
-      <input type="text" placeholder="Digite a quantidade de produtos" name="Preço de venda" id="preco"  autocomplete="off"  maxlength="10">
-      </div> 
+        <label for="Preço">Preço de venda(R$)</label>
+        <input
+          type="text"
+          placeholder="Digite a quantidade de produtos"
+          name="Preço de venda"
+          id="preco"
+          autocomplete="off"
+          maxlength="10"
+        />
+      </div>
 
       <div class="campos">
         <label for="descricao">Descrição</label>
-        <input type="text" name="descricao" id="descricao" placeholder="Digite a descrição do lanche" autocomplete="off" maxlength="50">
+        <input
+          type="text"
+          name="descricao"
+          id="descricao"
+          placeholder="Digite a descrição do lanche"
+          autocomplete="off"
+          maxlength="50"
+        />
       </div>
 
       <div class="campos" id="ingredientes">
         <label for="ingredientes">Adicionar ingredientes</label>
-          <select id="ingrediente">
-            <option>Selecione o ingrediente</option>
-            <option>Pão</option>
-            <option>Bacon</option>
-            <option>Hamburguer</option>
-          </select>
-          <button id="adicionar">Adicionar</button>
+
+        <div id="ingredientes-adicionados" class="display-none">
+          <h4>Ingredientes adicionados</h4>
+        </div>
+
+        <label for="ingrediente" id="nao-selecionado" class="display-none">Selecione um ingrediente</label>
+
+        <select id="ingrediente">
+          <option value = "0" >Selecione o ingrediente</option>
+          <option>Pão</option>
+          <option>Bacon</option>
+          <option>Hamburguer</option>
+        </select>
+
+        <button id="adicionar">Adicionar</button>
       </div>
-      
+
       <div class="campos">
         <label for="imagem">Carregar imagem</label>
-        <input type="file" name="imagem" id="imagem">
+        <input type="file" name="imagem" id="imagem" />
       </div>
-      
+
       <button class="button" id="cadastrar">CRIAR LANCHE</button>
     </div>
-    <script src ="javascript/jquery/jquery.js"></script>
+
+    <script src="javascript/criarlanche.js"></script>
+    <script src="javascript/jquery/jquery.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="javascript/ApiCriarLanche.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c495fd7c68.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
