@@ -10,6 +10,7 @@ export namespace BaseTypes {
         nome: string
         quantidade: number
         valor_unidade: number 
+        ativo?: boolean
     }
 
     export type Ingrediente_lanches = BaseType & {

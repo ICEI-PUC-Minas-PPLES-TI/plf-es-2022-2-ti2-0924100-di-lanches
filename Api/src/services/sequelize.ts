@@ -178,6 +178,10 @@ export const DBEntities = {
         valor_unidade: {
             type: DataTypes.DOUBLE
         },
+        ativo : {
+            type: DataTypes.BOOLEAN,
+            defaultValue: true
+        }
     }),
     Pedido_has_colaboradores: sequelize.define<Instance.Pedido_has_colaboradores>('Pedido_has_colaboradores', {
         
