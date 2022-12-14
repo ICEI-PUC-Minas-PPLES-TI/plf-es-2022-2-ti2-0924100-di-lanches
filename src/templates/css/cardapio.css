@@ -166,7 +166,9 @@ footer {
 
 .criarLanche{
   width: 242px;
-  height: 50vh;
+  margin-top: 20px;
+  border-radius: 7px;
+  height: 395px;
   background-color: #726d6d;
   opacity: 0.4;
   color: white;
