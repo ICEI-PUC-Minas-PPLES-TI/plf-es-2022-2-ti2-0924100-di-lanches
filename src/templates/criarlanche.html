@@ -48,7 +48,7 @@
   
       <div class="campos">
       <label for="Preço">Preço de venda(R$)</label>
-      <input type="number" placeholder="Digite a quantidade de produtos" name="Preço de venda" id="preco"  autocomplete="off"  maxlength="10">
+      <input type="text" placeholder="Digite a quantidade de produtos" name="Preço de venda" id="preco"  autocomplete="off"  maxlength="10">
       </div> 
       
       <div class="campos">
@@ -65,26 +65,12 @@
             <option>Hamburguer</option>
           </select>
           <button id="adicionar">Adicionar</button>
-
       </div>
-
-      <div class="campos">
-      <label for="Descricao">Descrição</label>
-      <input type="text" placeholder="Digite a descrição do pedido" name="descricao" id="descricao" autocomplete="off" maxlength="50">
-      </div>
-
-      <div class="campos" id="ativo">
-      <label for="ativo">O lanche está ativo ?</label>
-      <input type="checkbox" name="ativo" id="ativo"  autocomplete="off"  maxlength="10">
-      </div> 
-  
-      <button onclick="return cadastrar.funcoes.cadastrarLanche()" id="enviar" class="button">CRIAR LANCHE</button>
+      
+      <button onclick="return valida()" id="cadastrar" class="button">CRIAR LANCHE</button>
     </div>
 
+    <script src="javascript/criarlanche.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src ="javascript/jquery/jquery.js"></script>
-    <script src="javascript/ApiCriarLanche.js"></script>
-
-  
   </body>
 </html>
