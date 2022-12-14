@@ -6,7 +6,7 @@ let cadastrar = {
         cadastrarLanche: () => {
             let lanche = {
                 foto: $("#imagem").val(),
-                descricao: "delicia",
+                descricao: $("#descricao").val(),
                 valor: $("#preco").val(),
                 nome: $("#nome").val(),
                 ativo: true,
