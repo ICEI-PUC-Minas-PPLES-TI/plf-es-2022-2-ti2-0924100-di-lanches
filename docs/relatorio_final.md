@@ -359,12 +359,52 @@ Usar o seguinte modelo:
 
 Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
 
-<p align="center">
-  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Cadastro%20-%20Di'lanches.png"
-</p>
+**TELA DE INICIO**
     
 <p align="center">
-  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/cardapio.png"
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_de_Inicio.png"
+</p>
+    
+**TELA CARDAPIO**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_cardapio.png"
+</p>
+  
+**TELA LOGIN**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_login.png"
+</p>
+    
+**TELA REGISTRO**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_register.png"
+</p>
+    
+**TELA PEDIDO**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_pedido.png"
+</p>
+    
+**TELA ESTOQUE**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_estoque.png"
+</p>
+   
+**TELA CRIAR LANCHE**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_criarlanche.png"
+</p>
+    
+**TELA ADICIONAR INGREDIENTE**
+    
+<p align="center">
+  <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_adicionaringrediente.png"
 </p>
 
 ## 8. Conclusão
