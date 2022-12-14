@@ -3,6 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.startServer = void 0;
 const express_1 = __importDefault(require("express"));
 const config_1 = require("./config");
 const body_parser_1 = require("body-parser");
@@ -32,4 +33,4 @@ const startServer = async () => {
     app.use('/api', routes_1.routers);
     app.listen(config_1.config.port, () => console.log(`[Express] Running at port ${config_1.config.port}`));
 };
-startServer();
+exports.startServer = startServer;

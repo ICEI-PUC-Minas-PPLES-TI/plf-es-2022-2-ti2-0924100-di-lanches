@@ -1,15 +1,15 @@
 {
-    "name": "me ajuda",
+    "outputDirectory": "build",
     "version": 2,
     "public": true,
     "builds": [{
-        "src": "./build/src/index.js",
-        "use": "@vercel/node"
+        "src": "index.js",
+        "use": "@now/node"
     }],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "./build/src/index.js"
+        "dest": "index.js"
       }
     ]
  }

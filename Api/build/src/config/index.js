@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.config = void 0;
 require('dotenv').config();
 exports.config = {
-    port: parseInt(process.env.PORT) || 5000,
+    port: parseInt(process.env.PORT) || 1010,
     secret: process.env.SECRET,
     database: {
         host: process.env.DATABASE_HOSTNAME,

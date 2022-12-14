@@ -1,15 +1,15 @@
 import express from 'express'
-import { config } from './config'
+import { config } from './src/config'
 import { json } from 'body-parser'
 import { setLocale } from 'yup'
 import { pt } from 'yup-locale-pt'
-import { routers } from './routes'
-import { sequelize } from './services/sequelize'
+import { routers } from './src/routes'
+import { sequelize } from './src/services/sequelize'
 import swaggerUi from "swagger-ui-express"
-import swaggerDocument from "../swagger.json"
+import swaggerDocument from "./swagger.json"
 const cors = require('cors')
 
-export const startServer = async () => {
+const startServer = async () => {
     await sequelize
     .authenticate()
     .then(() => console.log('[Database] Autenticado com sucesso.'))
@@ -24,15 +24,17 @@ export const startServer = async () => {
     
     setLocale(pt)
 
-    const app = express()
-
-    app.use(cors({allowedHeaders: '*', exposedHeaders: '*'}))
     
-    app.use(json())
-    app.use(express.urlencoded({extended: true}))
-    
-    app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-    app.use('/api', routers)
-
-    app.listen(config.port, () => console.log(`[Express] Running at port ${config.port}`))
 }
+startServer()
+const app = express()
+
+app.use(cors({allowedHeaders: '*', exposedHeaders: '*'}))
+
+app.use(json())
+app.use(express.urlencoded({extended: true}))
+
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use('/api', routers)
+
+app.listen(config.port, () => console.log(`[Express] Running at port ${config.port}`))
