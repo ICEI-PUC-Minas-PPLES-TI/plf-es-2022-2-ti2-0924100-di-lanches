@@ -6,6 +6,16 @@
   padding: 0;
 }
 
+
+@keyframes fadeIn {
+  from {opacity: 0.3; }
+  to {opacity: 1; }
+}
+html{
+  animation: fadeIn 0.5s alternate;
+  transition: 1s;
+}
+
 .row{ 
   display: flex;
   flex-direction: row;
@@ -84,6 +94,12 @@
   width: 13vw;
   height: 5vh;
   border-radius: 10px;
+  transition: 1s;
+}
+
+#voltar:hover{
+  transform: scale(1.02);
+  transition: 1s;
 }
 
 #seta{

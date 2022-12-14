@@ -43,6 +43,7 @@ body {
 
 .dropdown-menu {
   background: #181818;
+  transition: 1s;
 }
 
 a.dropdown-toggle {
