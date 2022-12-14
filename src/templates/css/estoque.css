@@ -94,3 +94,9 @@ main{
 #estoque-table_filter > label, #estoque-table_filter > label >input {
   color:white !important;
 }
+
+@media only screen and (max-width: 600px) {
+ #estoque-table{
+    width: 80vw;
+  }
+}
