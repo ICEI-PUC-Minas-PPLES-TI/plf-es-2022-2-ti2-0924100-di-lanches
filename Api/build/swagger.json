@@ -1,0 +1,368 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Di lanches",
+        "description": "Essa api tem a base de ser um gerenciador de lanchonetes",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:5000/api/"
+        }
+    ],
+    "paths": {
+        "/autenticacao/": {
+            "post": {
+                "tags": [
+                    "Autenticacao"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "email": {
+                                        "example": "any"
+                                    },
+                                    "senha": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/autenticacao/cadastro": {
+            "post": {
+                "tags": [
+                    "Autenticacao"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "201": {
+                        "description": "Criado"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "nome": {
+                                        "example": "any"
+                                    },
+                                    "telefone": {
+                                        "example": "any"
+                                    },
+                                    "email": {
+                                        "example": "any"
+                                    },
+                                    "senha": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/cliente/": {
+            "get": {
+                "tags": [
+                    "Cliente"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/cliente/{cliente_id}": {
+            "get": {
+                "tags": [
+                    "Cliente"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "cliente_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "/pedido/cancelar/{pedido_id}": {
+            "post": {
+                "tags": [
+                    "Cancelamento"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "pedido_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "motivo": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/pedido/cancelar/validar/{cancelamento_id}": {
+            "post": {
+                "tags": [
+                    "Cancelamento"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "cancelamento_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "motivo": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/lanche/": {
+            "get": {
+                "tags": [
+                    "Lanche"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Lanche"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "201": {
+                        "description": "Criado"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "foto": {
+                                        "example": "any"
+                                    },
+                                    "descricao": {
+                                        "example": "any"
+                                    },
+                                    "valor": {
+                                        "example": "any"
+                                    },
+                                    "nome": {
+                                        "example": "any"
+                                    },
+                                    "ativo": {
+                                        "example": "any"
+                                    },
+                                    "Ingrediente_lanches": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/endereco/{cliente_id}": {
+            "get": {
+                "tags": [
+                    "Endereco"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "cliente_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Endereco"
+                ],
+                "description": "",
+                "parameters": [
+                    {
+                        "name": "cliente_id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Criado"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "CEP": {
+                                        "example": "any"
+                                    },
+                                    "rua": {
+                                        "example": "any"
+                                    },
+                                    "bairro": {
+                                        "example": "any"
+                                    },
+                                    "cidade": {
+                                        "example": "any"
+                                    },
+                                    "estado": {
+                                        "example": "any"
+                                    },
+                                    "numero": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/ingrediente/": {
+            "get": {
+                "tags": [
+                    "Ingredientes"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Ingredientes"
+                ],
+                "description": "",
+                "parameters": [],
+                "responses": {
+                    "201": {
+                        "description": "Criado"
+                    }
+                },
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "nome": {
+                                        "example": "any"
+                                    },
+                                    "quantidade": {
+                                        "example": "any"
+                                    },
+                                    "valor_unidade": {
+                                        "example": "any"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
