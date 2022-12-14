@@ -462,13 +462,11 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 # APÊNDICES
 
-**Colocar link:**
-
 Do código (armazenado no repositório);
 
 Dos artefatos (armazenado do repositório);
 
-Da apresentação final (armazenado no repositório);
+Da apresentação final: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/Apresentação.pptx;
 
 Do vídeo de apresentação (armazenado no repositório).
 
