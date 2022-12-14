@@ -97,6 +97,7 @@ a.dropdown-item:hover {
   padding-top: 25vh;
   margin-bottom: 10vh;
   animation: fadeIn 2s alternate;
+  overflow: hidden;
 }
 
 .main h1{

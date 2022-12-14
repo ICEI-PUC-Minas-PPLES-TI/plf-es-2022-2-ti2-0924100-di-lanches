@@ -3,9 +3,6 @@ var nome = document.querySelector("#nome")
 var preco = document.querySelector("#preco")
 var labelErro = document.querySelector("#labelErro")
 
-
-
-
 preco.addEventListener('keypress', () =>{
   if (preco.value.length === 0) {
     preco.value += 'R$'
