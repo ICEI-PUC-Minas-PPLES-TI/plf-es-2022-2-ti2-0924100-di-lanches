@@ -441,7 +441,7 @@ O projeto da Di'Lanches é um sistema de gestão que teve como intuíto principa
 
 # APÊNDICES
 
-Do código (armazenado no repositório);
+Do código: https://dilanches.eduardobrito.com.br/;
 
 Dos artefatos (armazenado do repositório);
 
