@@ -8,32 +8,32 @@ import { config } from '../config'
 dotenv.config()
 
 export const validationHandler: RequestHandler = (req, res, next) => {
-  try {
-    const token = req.headers.authorization
-    const secret = config.secret
+  // try {
+  //   const token = req.headers.authorization
+  //   const secret = config.secret
 
-    if (token === undefined) {
-      throw new HttpException(401, 'Autorização inválida.')
-    }
+  //   if (token === undefined) {
+  //     throw new HttpException(401, 'Autorização inválida.')
+  //   }
 
-    if (secret === undefined) {
-      throw new HttpException(401, 'Erro inesperado.')
-    }
+  //   if (secret === undefined) {
+  //     throw new HttpException(401, 'Erro inesperado.')
+  //   }
 
-    req.colaborador = jwt.verify(
-      token,
-      secret
-    ) as BaseTypes.Colaborador
+  //   req.colaborador = jwt.verify(
+  //     token,
+  //     secret
+  //   ) as BaseTypes.Colaborador
 
-    next()
-  } catch (error) {
-    if (error instanceof HttpException) {
-      next(error)
-      return
-    }
+  //   next()
+  // } catch (error) {
+  //   if (error instanceof HttpException) {
+  //     next(error)
+  //     return
+  //   }
 
-    next(new HttpException(401, 'Token inválido.'))
-  }
+  //   next(new HttpException(401, 'Token inválido.'))
+  // }
 }
 
 export const sign = (payload: any) => {
