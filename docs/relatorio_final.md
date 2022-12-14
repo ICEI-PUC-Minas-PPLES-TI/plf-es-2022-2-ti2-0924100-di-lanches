@@ -361,7 +361,10 @@ Usar o seguinte modelo:
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_de_Inicio.png"
 </p>
     
+    
+    
 Tela principal do site.
+    
     
     
 **TELA CARDAPIO**
@@ -370,7 +373,10 @@ Tela principal do site.
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_cardapio.png"
 </p>
 
+    
+    
 Tela onde o funcionário possui todas as informações do cardápio.
+    
     
     
 **TELA LOGIN**
@@ -379,7 +385,10 @@ Tela onde o funcionário possui todas as informações do cardápio.
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_login.png"
 </p>
 
+    
+    
 Tela onde o funcionário realiza o login no sistema.
+    
     
     
 **TELA REGISTRO**
@@ -388,7 +397,10 @@ Tela onde o funcionário realiza o login no sistema.
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_register.png"
 </p>
 
+    
+    
 Tela onde o funcionário realiza seu cadastro no sistema.
+    
     
     
 **TELA PEDIDO**
@@ -397,7 +409,10 @@ Tela onde o funcionário realiza seu cadastro no sistema.
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_pedido.png"
 </p>
 
+    
+    
 Tela onde o funcionário possui as informações do pedido.
+    
     
     
 **TELA ESTOQUE**
@@ -406,7 +421,10 @@ Tela onde o funcionário possui as informações do pedido.
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_estoque.png"
 </p>
    
+    
+    
 Tela onde o funcionário possui informações do estoque. Aqui ele pode remover, alterar e adicionar produtos no estoque.
+    
     
     
 **TELA CRIAR LANCHE**
@@ -415,7 +433,10 @@ Tela onde o funcionário possui informações do estoque. Aqui ele pode remover,
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_criarlanche.png"
 </p>
    
+    
+    
 Tela onde o funcionário realiza a criação do lanche.
+    
     
     
 **TELA ADICIONAR INGREDIENTE**
@@ -424,7 +445,10 @@ Tela onde o funcionário realiza a criação do lanche.
   <img src="https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-di-lanches/blob/master/docs/imagens/Tela_adicionaringrediente.png"
 </p>
 
+    
+    
 Tela onde o funcionário adiciona ingredientes ao lanche.
+    
     
     
 ## 8. Conclusão
