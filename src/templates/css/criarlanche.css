@@ -71,6 +71,20 @@ input::placeholder {
   color: white;
 }
 
+#ingrediente{
+  width: 30vw;
+  border: none;
+  height: 5vh;
+  border-radius: 50px;
+}
+
+#ingrediente option{
+  width: 30vw;
+  border: none;
+  height: 6vh;
+  border-radius: 50px;
+}
+
 #ingredientes{
   margin-bottom: 5vh;
 }
@@ -202,7 +216,6 @@ label{
     height: 65px;
     font-size: 3.2vw;
   }
-
 
   
 }
