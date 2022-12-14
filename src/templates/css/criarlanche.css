@@ -76,6 +76,10 @@ input::placeholder {
   border: none;
   height: 5vh;
   border-radius: 50px;
+  outline: none;
+  padding: 5px;
+  font-size: 15px;
+  padding-left: 15px;
 }
 
 #ingrediente option{
