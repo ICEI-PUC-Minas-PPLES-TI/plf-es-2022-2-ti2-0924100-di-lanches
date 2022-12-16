@@ -13,7 +13,7 @@ O contexto do projeto do grupo Di’Lanches é a criação de um sistema de gera
 
 ## Professores
 
-* **Cristiano Geraldo Teixeira Silva**
+* **Cristiano Neves Rodrigues**
 * **Felipe Augusto Lima Reis**
 * **Hugo Bastos de Paula**
 
